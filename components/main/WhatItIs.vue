@@ -1,13 +1,11 @@
 <template>
-  <section aria-label="What is DX@Scale?" class="relative overflow-hidden pt-20 pb-28 sm:py-32 bg-[url('~/assets/img/bg/features.jpg')]">
-    <!-- <img class="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
-      src="~/assets/img/bg/features.jpg" alt="" width=2245 height=1636 /> -->
+  <section aria-label="What is DX@Scale?" class="relative overflow-hidden pb-28 py-12 sm:py-24 bg-cover bg-bottom bg-[url('~/assets/img/bg/features.jpg')]">
     <div>
       <div class="max-w-7xl mx-auto relative px-4">
         <div class="dark:text-white/70 max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 class="py-12 text-center text-base font-semibold uppercase text-white tracking-wider">What is DX@Scale?
           </h2>
-          <p class="text-lg tracking-tight text-white/90 dark:text-slate-400">
+          <p class="text-lg tracking-tight text-white/90">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro magnam vel omnis repellendus optio ea animi molestiae harum odit, quis dolorum voluptatum aperiam, facere voluptates officiis quibusdam nobis iure? Soluta?
           </p>
         </div>
@@ -18,16 +16,16 @@
               class="relative z-10 flex gap-x-4 whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal">
               <div v-for="(feature, index) in features"
                 class="group relative rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-6"
-                :class="[index === selectedTab ? 'bg-pink-500 lg:bg-slate-200 dark:lg:bg-slate-900 lg:ring-1 lg:ring-inset lg:ring-white/10' : 'hover:bg-slate-800 lg:hover:bg-slate-900']">
+                :class="[index === selectedTab ? 'bg-pink-500 lg:bg-sky-200/20 lg:ring-1 lg:ring-inset lg:ring-white/10' : 'hover:bg-slate-800 lg:hover:bg-sky-200/10']">
                 <h3>
                   <Tab class="font-display text-lg focus:outline-none"
-                    :class="[index === selectedTab ? 'text-white lg:text-slate-700 dark:lg:text-slate-400 ' : 'text-slate-400 hover:text-slate-900  dark:hover:text-white lg:text-slate-500']">
+                    :class="[index === selectedTab ? 'text-white' : 'text-white']">
                     <span class="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl" />
                     {{ feature.title }}
                   </Tab>
                 </h3>
                 <p class="mt-2 hidden text-sm lg:block"
-                  :class="[index === selectedTab ? 'text-slate-600 dark:lg:text-slate-400' : 'text-pink-500 hover:text-white lg:text-slate-400']">
+                  :class="[index === selectedTab ? 'text-white' : 'text-white hover:text-white']">
                   {{ feature.description }}
                 </p>
               </div>
@@ -37,7 +35,7 @@
             <TabPanel v-for="feature in features" :unmount="false">
               <div class="relative sm:px-6 lg:hidden">
                 <div class="absolute -inset-x-4 top-[-6.5rem] bottom-[-4.25rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl" />
-                <p class="relative mx-auto max-w-2xl text-base text-slate-600 dark:text-slate-200 sm:text-center">
+                <p class="relative mx-auto max-w-2xl text-base text-white sm:text-center">
                   {{ feature.description }}
                 </p>
               </div>

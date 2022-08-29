@@ -12,14 +12,28 @@
               class="text-pink-500 font-semibold dark:text-pink-400">
               like this one
             </a>
-            Ut enim duis commodo sunt ex magna est. In tempor aute occaecat aliqua minim labore velit. Consequat ipsum ex dolor exercitation dolore ipsum elit laboris officia aliqua consequat sint labore Lorem. Aute velit in dolor Lorem in Lorem velit. Deserunt dolore ea fugiat cupidatat anim sint eiusmod.
+            where we talked about our approach to building Salesforce Solutions.
+            We found out that if we focus on sane Software Engineering principles
+            like modularisation, trunk based development and continuous integration;
+            we can deliver any Salesforce solution at any scale, with consistency,
+            confidence and with a high level of quality.
+          </p>
+          <p class="mt-6 max-w-3xl mx-auto text-lg text-slate-900 dark:text-white/90">
+            What we also noticed is that if we focus on quality, speed is a by-product.
           </p>
         </blockquote>
-        <figcaption class="mt-6 flex items-center justify-center space-x-4 text-left">
-          <img src="~/assets/img/beams/hero-dark@90.jpg" alt="" class="w-14 h-14 rounded-full" loading="lazy" />
-          <img src="~/assets/img/beams/hero-dark@90.jpg" alt="" class="w-14 h-14 rounded-full" loading="lazy" />
+        <figcaption class="mt-8 flex justify-center space-x-4 text-center">
+          <div class="w-48">
+            <img src="~/assets/img/avatars/azlam.jpg" alt="" class="mx-auto w-24 h-24 rounded-full" loading="lazy" />
+            <div class="mt-4 text-slate-900 dark:text-white">Azlam</div>
+            <div class="text-sm text-slate-900 dark:text-white/70">Creator of sfpowerkit</div>
+          </div>
+          <div class="w-48">
+            <img src="~/assets/img/avatars/ramzi.jpg" alt="" class="mx-auto w-24 h-24 rounded-full" loading="lazy" />
+            <div class="mt-4 text-slate-900 dark:text-white">Ramzi</div>
+            <div class="text-sm text-slate-900 dark:text-white/70">Software Engineering Lead</div>
+          </div>
           <div>
-            <div class="text-slate-900 font-semibold dark:text-white">Azlam & Ramzi</div>
           </div>
         </figcaption>
       </figure>
