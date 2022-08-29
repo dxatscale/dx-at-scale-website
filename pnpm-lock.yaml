@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@headlessui/vue': 0.0.0-dev.0ce63d8
+  '@headlessui/vue': 0.0.0-insiders.920365c
   '@heroicons/vue': ^1.0.6
   '@nuxt/content': ^2.0.1
   '@nuxtjs/tailwindcss': ^5.1.2
@@ -11,7 +11,7 @@ specifiers:
   nuxt: 3.0.0-rc.8
 
 dependencies:
-  '@headlessui/vue': 0.0.0-dev.0ce63d8
+  '@headlessui/vue': 0.0.0-insiders.920365c
   '@heroicons/vue': 1.0.6
   '@tailwindcss/aspect-ratio': 0.4.0
   '@tailwindcss/forms': 0.5.2
@@ -365,11 +365,11 @@ packages:
     dev: true
     optional: true
 
-  /@headlessui/vue/0.0.0-dev.0ce63d8:
-    resolution: {integrity: sha512-uAqGL7YfhHc9ICmtJFaieVw8A+6qPA9SlDETk57Fd1DlzMAk+AvTe0H5JJr1Yb2QQep/39EoJiodJg3ESRJOeQ==}
+  /@headlessui/vue/0.0.0-insiders.920365c:
+    resolution: {integrity: sha512-fNl2VSXbbJ+tGlYHidKhY8r2PwW2knI1/mfjSMC6ZwAL4YRBK2O7A0JVycn2Rnoym7OqmtbdT1yeF7Ff80mFEw==}
     engines: {node: '>=10'}
     peerDependencies:
-      vue: ^3.0.0
+      vue: ^3.2.0
     dev: false
 
   /@heroicons/vue/1.0.6:
