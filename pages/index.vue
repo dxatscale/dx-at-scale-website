@@ -1,6 +1,7 @@
 <template>
-  <div class="bg-white">
+  <div>
     <MainWhy />
     <MainWhatItIs />
+    <MainCommunityUsers />
   </div>
 </template>
