@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
 
 module.exports = {
   darkMode: 'media',
@@ -16,6 +17,11 @@ module.exports = {
     'plugins/**/*.{js,ts}'
   ],
   theme: {
+    colors: {
+      primary: colors.indigo,
+      secondary: colors.yellow,
+      neutral: colors.gray,
+    },
     extend: {
       fontFamily: {
         sans: ['Biennale', ...defaultTheme.fontFamily.sans]

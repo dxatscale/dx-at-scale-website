@@ -1,8 +1,7 @@
 <template>
   <header class="relative">
     <Popover class="px-4 sm:px-6 md:px-8">
-      <div class="absolute inset-0 bottom-0 bg-bottom bg-cover bg-no-repeat bg-slate-50 dark:bg-[#0B1120] bg-[url('~/assets/img/beams/hero@75.jpg')] dark:bg-[url('~/assets/img/beams/hero-dark@90.jpg')]">
-        <!-- TODO: style beams to add in the div class up above -->
+      <div class="absolute inset-0 bottom-0 bg-bottom bg-cover bg-no-repeat bg-[url('~/assets/img/bg/hero-light.jpg')] dark:bg-[url('~/assets/img/bg/hero-dark.jpg')]">
         <div
           class="absolute inset-0 bg-grid-slate-900/[0.04] bg-[bottom_1px_center] dark:bg-grid-slate-400/[0.05] dark:bg-bottom dark:border-b dark:border-slate-100/5"
           style="maskImage: 'linear-gradient(to bottom, transparent, black)' , WebkitMaskImage: 'linear-gradient(to bottom, transparent, black)' , " />

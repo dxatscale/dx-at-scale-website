@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-20 overflow-hidden">
+  <div class="overflow-hidden">
     <SiteHeader />
     <!-- <SiteHero /> -->
     <main>

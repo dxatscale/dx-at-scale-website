@@ -1,25 +1,27 @@
 <template>
   <div class="relative">
     <div class="inset-x-0 bottom-0 h-1/3" />
-    <div>
-      <div class="relative sm:overflow-hidden">
-        <div class="">
+      <div>
+        <div class="relative sm:overflow-hidden">
+          <div class="absolute inset-0 bg-cover">
         </div>
 
         <div class="relative max-w-7xl mx-auto px-4 py-32 sm:px-6 sm:py-24">
-          <div class="mx-auto text-center">
-            <p class="text-xl text-slate-700 dark:text-slate-300">
-              Excepteur anim velit ut in ipsum est magna tempor.
-            </p>
-            <h1 class="mt-4">
-              <span
-                class="block tracking-tight pb-3 text-4xl sm:text-5xl lg:text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-sky-900 to-sky-400 dark:from-sky-400 dark:to-sky-600 sm:pb-5">
-                Magna id nostrud cillum mollit incididunt dolore eu.
-              </span>
-            </h1>
-            <p class="text-xl lg:text-lg xl:text-xl text-slate-700 dark:text-slate-300">
-              Reprehenderit et quis exercitation adipisicing elit irure proident dolore duis commodo sint.
-            </p>
+          <div class="sm:grid sm:grid-cols-6 sm:gap-8">
+            <div class="mx-auto col-span-4 text-center sm:mx-0 sm:text-left sm:flex sm:items-center">
+              <div class="w-full">
+                <p class="text-xl text-slate-700 dark:text-slate-300">Ea consequat et nulla in dolore minim ad ea in occaecat velit ea.</p>
+                <h1 class="mt-4">
+                  <span class="block tracking-tight pb-3 text-4xl sm:text-5xl lg:text-7xl font-extrabold text-pink-700 dark:text-pink-500 sm:pb-5">Laboris qui consequat in quis occaecat laborum</span>
+                </h1>
+                <p class="text-xl lg:text-lg xl:text-xl text-slate-700 dark:text-slate-300">Ipsum dolore in ex ad consectetur id.</p>
+              </div>
+            </div>
+            <div class="col-span-2 sm:mt-0 sm:relative sm:items-center">
+              <div class="">
+                <img class="mx-auto h-3/4 w-3/4" src="~/assets/img/rocket.png" alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
