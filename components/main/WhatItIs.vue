@@ -1,5 +1,5 @@
 <template>
-  <section aria-label="What is DX@Scale?" class="relative overflow-hidden pb-28 py-12 sm:py-24 bg-cover bg-bottom bg-[url('~/assets/img/bg/features.jpg')]">
+  <section aria-label="What is DX@Scale?" class="relative overflow-hidden pb-28 py-12 sm:py-24 bg-cover bg-bottom bg-[url('~/assets/img/bg/features.jpg')] dark:bg-[url('~/assets/img/bg/features-dark.jpg')]">
     <div>
       <div class="max-w-7xl mx-auto relative px-4">
         <div class="dark:text-white/70 max-w-2xl md:mx-auto md:text-center xl:max-w-none">
@@ -55,6 +55,12 @@
 
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
 const features = [
+  {
+    title: 'Practices',
+    description:
+      "Pariatur excepteur deserunt esse aute tempor dolor elit consequat do ullamco elit. Quis cillum consectetur tempor sunt labore cillum sunt amet nisi reprehenderit. Eiusmod sit pariatur culpa occaecat anim commodo quis pariatur quis aliqua nostrud sunt labore dolore.",
+    image: "/assets/img/screenshots/practices.jpg",
+  },
   {
     title: 'Orchestrator',
     description:
