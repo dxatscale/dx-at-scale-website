@@ -10,11 +10,10 @@
           <div class="sm:grid sm:grid-cols-6 sm:gap-8">
             <div class="mx-auto col-span-4 text-center sm:mx-0 sm:text-left sm:flex sm:items-center">
               <div class="w-full">
-                <p class="text-xl text-slate-700 dark:text-slate-300">Ea consequat et nulla in dolore minim ad ea in occaecat velit ea.</p>
                 <h1 class="mt-4">
-                  <span class="block tracking-tight pb-3 text-4xl sm:text-5xl lg:text-7xl font-extrabold text-pink-700 dark:text-pink-500 sm:pb-5">Laboris qui consequat in quis occaecat laborum</span>
+                  <span class="block tracking-tight pb-3 text-4xl sm:text-5xl lg:text-7xl font-extrabold text-pink-700 dark:text-pink-500 sm:pb-5">Modular Salesforce Development   @Scale</span>
                 </h1>
-                <p class="text-xl lg:text-lg xl:text-xl text-slate-700 dark:text-slate-300">Ipsum dolore in ex ad consectetur id.</p>
+                <p class="text-xl lg:text-lg xl:text-xl text-slate-700 dark:text-slate-300">Open Source Tools and Practices for building a well architected Salesforce Org.</p>
               </div>
             </div>
             <div class="col-span-2 sm:mt-0 sm:relative sm:items-center">
