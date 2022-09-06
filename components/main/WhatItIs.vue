@@ -181,7 +181,7 @@ const features = [
     title: "Practices based on Real Projects",
     description:
       "Sane vetted advises. Curated set of practices based on  our practitioners 'collective' experience in real projects that one can adopt",
-    image: "assets/img/screenshots/practices2.png",
+    image: "img/dashboard.png",
   },
   {
     title: "Instant Dev Environments",
