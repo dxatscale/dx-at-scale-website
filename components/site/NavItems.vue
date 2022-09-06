@@ -6,10 +6,10 @@
 
 <script>
   const navigation = [
-    { name: 'About', href: '#' },
-    { name: 'Getting Started', href: '#' },
-    { name: 'Documentation', href: '#' },
-    { name: 'Blog', href: '#' }
+    { name: 'About', href: 'https://docs.dxatscale.io/about-us/meet-our-team' },
+    { name: 'Documentation', href: 'https://docs.dxatscale.io/' },
+    { name: 'Setting up CI/CD', href: 'https://docs.dxatscale.io/implementing-your-ci-cd/prerequisites' },
+    { name: 'Release Logs', href: 'https://github.com/dxatscale/dxatscale/releases' }
   ]
 
   export default {
