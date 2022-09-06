@@ -13,7 +13,7 @@
                 <h1 class="mt-4">
                   <span class="block tracking-tight pb-3 text-4xl sm:text-5xl lg:text-7xl font-extrabold text-pink-700 dark:text-pink-500 sm:pb-5">Modular Salesforce Development   @Scale</span>
                 </h1>
-                <p class="text-xl lg:text-lg xl:text-xl text-slate-700 dark:text-slate-300">Open Source Tools and Practices for building a well architected Salesforce Org.</p>
+                <p class="text-xl lg:text-lg xl:text-xl text-slate-700 dark:text-slate-300">Open Source Tools and Practices for a well architected Salesforce Org.</p>
               </div>
             </div>
             <div class="col-span-2 sm:mt-0 sm:relative sm:items-center">
