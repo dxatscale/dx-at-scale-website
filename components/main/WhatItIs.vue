@@ -59,31 +59,31 @@ const features = [
     title: 'Practices',
     description:
       "Pariatur excepteur deserunt esse aute tempor dolor elit consequat do ullamco elit. Quis cillum consectetur tempor sunt labore cillum sunt amet nisi reprehenderit. Eiusmod sit pariatur culpa occaecat anim commodo quis pariatur quis aliqua nostrud sunt labore dolore.",
-    image: "/assets/img/screenshots/practices2.png",
+    image: "~/assets/img/screenshots/practices2.png",
   },
   {
     title: 'Orchestrator',
     description:
       "Do not spend time with custom scripts anymore, the orchestrator uses your application manifest to build and deploy everything auto-magically",
-    image: "/assets/img/screenshots/payroll.png",
+    image: "~/assets/img/screenshots/payroll.png",
   },
   {
     title: 'Instant Environments',
     description:
       "Your development and CI/CD environments in sync with your latest commits in minutes instead of hours",
-    image: "/assets/img/screenshots/expenses.png",
+    image: "~/assets/img/screenshots/expenses.png",
   },
   {
     title: 'Use your own CI/CD',
     description:
       "DX@Scale plays well with your existing CI/CD",
-    image: "/assets/img/screenshots/vat-returns.png",
+    image: "~/assets/img/screenshots/vat-returns.png",
   },
   {
     title: 'Reports',
     description:
       'All metrics are exposed so you can build your own dashboards and better monitor your development performance',
-    image: "/assets/img/screenshots/reports-light.jpg",
+    image: "~/assets/img/screenshots/reports-light.jpg",
   },
 ]
 
