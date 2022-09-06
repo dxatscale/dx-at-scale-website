@@ -6,7 +6,7 @@
           <h2 class="py-12 text-center text-base font-semibold uppercase text-white tracking-wider">What is DX@Scale?
           </h2>
           <p class="text-lg tracking-tight text-white/90">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro magnam vel omnis repellendus optio ea animi molestiae harum odit, quis dolorum voluptatum aperiam, facere voluptates officiis quibusdam nobis iure? Soluta?
+            DX@Scale is a collection of practices, open-source tools, frameworks, and practitioners built on  'collective' experience in delivering large and complex Salesforce programs. Utilizing these 'curated' practices, you can build a modular Salesforce Org that is reliable and easy to maintain.
           </p>
         </div>
         <TabGroup :selectedIndex="selectedTab" @change="changeTab" as="div"
@@ -59,16 +59,16 @@ const features = [
     title: 'Practices',
     description:
       "Pariatur excepteur deserunt esse aute tempor dolor elit consequat do ullamco elit. Quis cillum consectetur tempor sunt labore cillum sunt amet nisi reprehenderit. Eiusmod sit pariatur culpa occaecat anim commodo quis pariatur quis aliqua nostrud sunt labore dolore.",
-    image: "/assets/img/screenshots/practices.jpg",
+    image: "/assets/img/screenshots/practices2.png",
   },
   {
     title: 'Orchestrator',
     description:
-      "Do not spend time with custom scripts anymore, the orchestrator uses your application manifest to deploy everything auto-magically",
+      "Do not spend time with custom scripts anymore, the orchestrator uses your application manifest to build and deploy everything auto-magically",
     image: "/assets/img/screenshots/payroll.png",
   },
   {
-    title: 'Scratch Org Pool',
+    title: 'Instant Environments',
     description:
       "Your development and CI/CD environments in sync with your latest commits in minutes instead of hours",
     image: "/assets/img/screenshots/expenses.png",
