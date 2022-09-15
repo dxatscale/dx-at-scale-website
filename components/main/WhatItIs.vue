@@ -37,6 +37,7 @@
               <div
                 v-for="(feature, index) in features"
                 class="group relative rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-6"
+                :key="index"
                 :class="[
                   index === selectedTab
                     ? 'bg-pink-500 lg:bg-sky-200/20 lg:ring-1 lg:ring-inset lg:ring-white/10'
@@ -70,7 +71,7 @@
             </TabList>
           </div>
           <TabPanels class="lg:col-span-7">
-            <TabPanel v-for="feature in features" :unmount="false">
+            <TabPanel v-for="feature in features" :unmount="false" :key="feature.title">
               <div class="relative sm:px-6 lg:hidden">
                 <div
                   class="absolute -inset-x-4 top-[-6.5rem] bottom-[-4.25rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl"
@@ -107,26 +108,26 @@ const features = [
     title: "Instant Dev Environments",
     description:
       "Experiment faster with individual environments.Enable your team members with development environments provisioned in minutes not hours.",
-    image: "img/screenshots/expenses.png",
+    image: "img/screenshots/instant_dev_environments.gif",
   },
   {
     title: "Declarative Orchestrator",
     description:
       "Do not spend time with custom scripts anymore, the orchestrator uses your sfdx-project.json to build and deploy everything auto-magically",
-    image: "img/screenshots/payroll.png",
+    image: "img/screenshots/orchestrator.png",
   },
 
   {
     title: "Use your existing CI/CD system",
     description:
       "DX@Scale's CI/CD practices and tools are compatible with all major CI/CD platforms, reducing your mainteance costs",
-    image: "img/screenshots/vat-returns.png",
+    image: "img/screenshots/cicd.gif",
   },
   {
     title: "Improve every aspect of your worflow with metrics",
     description:
       "Monitor time spend on CI, build, deployment and many more. Utilize metrics exposed from your development workflow and integrate with any dashboard/reporting tool of choice",
-    image: "img/screenshots/reports-light.jpg",
+    image: "img/screenshots/metrics.png",
   },
 ];
 
