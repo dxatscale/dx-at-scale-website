@@ -17,4 +17,4 @@
   </div>
 </template>
 
-<!-- TODO: Get the real logos -->
+
