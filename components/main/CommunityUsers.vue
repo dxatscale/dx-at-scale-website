@@ -12,15 +12,6 @@
         <div class="col-span-1 flex justify-center py-8 px-8 bg-slate-100 dark:bg-slate-600">
           <img class="max-h-12" src="~/assets/img/logos/k-health.png" alt="k-health" />
         </div>
-        <div class="col-span-1 flex justify-center py-8 px-8 bg-slate-100 dark:bg-slate-600">
-          <img class="max-h-12" src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg" alt="Laravel" />
-        </div>
-        <div class="col-span-1 flex justify-center py-8 px-8 bg-slate-100 dark:bg-slate-600">
-          <img class="max-h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit" />
-        </div>
-        <div class="col-span-1 flex justify-center py-8 px-8 bg-slate-100 dark:bg-slate-600">
-          <img class="max-h-12" src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg" alt="Statamic" />
-        </div>
       </div>
     </div>
   </div>
