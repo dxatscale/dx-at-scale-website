@@ -8,7 +8,7 @@
         <blockquote>
           <p class="mt-6 max-w-3xl mx-auto text-lg text-slate-900 dark:text-white/90">
             We had few sessions
-            <a href="#"
+            <a href="https://docs.dxatscale.io/talks-on-dx-scale"
               class="text-pink-500 font-semibold dark:text-pink-400">
               like this one
             </a>
