@@ -2,6 +2,6 @@
   <div>
     <MainWhy />
     <MainWhatItIs />
-    <!-- <MainCommunityUsers /> -->
+    <MainCommunityUsers />
   </div>
 </template>
