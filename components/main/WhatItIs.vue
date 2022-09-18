@@ -29,7 +29,7 @@
           vertical
         >
           <div
-            class="-mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:overflow-visible sm:pb-0 lg:col-span-5"
+            class="-mx-4 flex overflow-x-auto pb-4 sm:mx-8 sm:overflow-visible sm:pb-0 lg:col-span-5"
           >
             <TabList
               class="relative z-10 flex gap-x-4 whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal"
@@ -71,7 +71,11 @@
             </TabList>
           </div>
           <TabPanels class="lg:col-span-7">
-            <TabPanel v-for="feature in features" :unmount="false" :key="feature.title">
+            <TabPanel
+              v-for="feature in features"
+              :unmount="false"
+              :key="feature.title"
+            >
               <div class="relative sm:px-6 lg:hidden">
                 <div
                   class="absolute -inset-x-4 top-[-6.5rem] bottom-[-4.25rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl"

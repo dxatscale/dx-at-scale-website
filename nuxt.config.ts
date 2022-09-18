@@ -9,4 +9,8 @@ export default defineNuxtConfig({
   build: {
     transpile: ["@heroicons/vue"],
   },
+
+  meta: [
+    { title: 'test' }
+  ]
 });

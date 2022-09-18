@@ -9,7 +9,7 @@
         <div class="relative max-w-7xl mx-auto px-4 py-32 sm:px-6 sm:py-24">
           <div class="sm:grid sm:grid-cols-6 sm:gap-8">
             <div class="mx-auto col-span-4 text-center sm:mx-0 sm:text-left sm:flex sm:items-center">
-              <div class="w-full">
+              <div class="w-full sm:mx-8">
                 <h1 class="mt-4">
                   <span class="block tracking-tight pb-3 text-4xl sm:text-5xl lg:text-7xl font-extrabold text-pink-700 dark:text-pink-500 sm:pb-5">Modular Salesforce Development   @Scale</span>
                 </h1>

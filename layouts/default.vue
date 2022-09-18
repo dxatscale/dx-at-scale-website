@@ -1,4 +1,5 @@
 <template>
+  <SiteHead />
   <div class="overflow-hidden">
     <SiteHeader />
     <!-- <SiteHero /> -->
