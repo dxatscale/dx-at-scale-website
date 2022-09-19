@@ -18,6 +18,11 @@
           <img class="max-h-12" src="~/assets/img/logos/k-health.png" alt="k-health" />
         </div>
        </a>
+       <a href="https://www.accenture.com/">
+        <div class="col-span-1 flex justify-center py-8 px-8 bg-slate-100 dark:bg-slate-600">
+          <img class="max-h-12" src="~/assets/img/logos/Acc_Logo_Black_Purple_RGB.png" alt="Accenture" />
+        </div>
+       </a>
       </div>
     </div>
   </div>
