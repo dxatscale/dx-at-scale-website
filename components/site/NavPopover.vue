@@ -29,10 +29,6 @@
 </template>
 <script>
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
-// import {
-//   MenuIcon,
-//   XIcon,
-// } from '@heroicons/vue/outline'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 export default {
