@@ -105,7 +105,7 @@ const features = [
   {
     title: "Practices based on Real Projects",
     description:
-      "Sane vetted advises. Curated set of practices based on  our practitioners 'collective' experience in real projects that one can adopt.",
+      "Sane vetted advices. Curated set of practices based on our practitioners' \"collective\" experience on real projects that one can adopt.",
     image: "img/screenshots/practices2.png",
   },
   {
@@ -124,13 +124,13 @@ const features = [
   {
     title: "Use your existing CI/CD system",
     description:
-      "DX@Scale's CI/CD practices and tools are compatible with all major CI/CD platforms, reducing your mainteance costs.",
+      "DX@Scale's CI/CD practices and tools are compatible with all major CI/CD platforms, reducing your maintenance costs.",
     image: "img/screenshots/cicd.gif",
   },
   {
     title: "Improve every aspect of your worflow with metrics",
     description:
-      "Monitor time spend on CI, build, deployment and many more. Utilize metrics exposed from your development workflow and integrate with any dashboard/reporting tool of choice.",
+      "Monitor time spent on CI, build, deployment and many more. Utilise metrics exposed from your development workflow and integrate with any dashboard/reporting tool of choice.",
     image: "img/screenshots/metrics.png",
   },
 ];
