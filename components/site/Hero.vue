@@ -11,7 +11,7 @@
             <div class="mx-auto col-span-4 text-center sm:mx-0 sm:text-left sm:flex sm:items-center">
               <div class="w-full sm:mx-8">
                 <h1 class="mt-4">
-                  <span class="block tracking-tight pb-3 text-4xl sm:text-5xl lg:text-7xl font-extrabold text-pink-700 dark:text-pink-500 sm:pb-5">Modular Salesforce Development   @Scale</span>
+                  <span class="block tracking-tight pb-3 text-4xl sm:text-5xl lg:text-7xl font-extrabold text-pink-700 dark:text-pink-500 sm:pb-5">Modular Salesforce Development @Scale</span>
                 </h1>
                 <p class="text-xl lg:text-lg xl:text-xl text-slate-700 dark:text-slate-300">Open Source Tools and Practices for a well architected Salesforce Org.</p>
               </div>

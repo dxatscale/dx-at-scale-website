@@ -12,7 +12,7 @@
             <PopoverButton
               class="bg-white dark:bg-slate-700 rounded-md p-2 inline-flex items-center justify-center text-slate-400 hover:bg-pink-200 dark:hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-500/50 dark:focus:ring-slate-600">
               <span class="sr-only">Close menu</span>
-              <XIcon class="h-6 w-6" aria-hidden="true" />
+              <XMarkIcon class="h-6 w-6" aria-hidden="true" />
             </PopoverButton>
           </div>
         </div>
@@ -29,18 +29,19 @@
 </template>
 <script>
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
-import {
-  MenuIcon,
-  XIcon,
-} from '@heroicons/vue/outline'
+// import {
+//   MenuIcon,
+//   XIcon,
+// } from '@heroicons/vue/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 export default {
   components: {
     Popover,
     PopoverButton,
     PopoverPanel,
-    MenuIcon,
-    XIcon
+    Bars3Icon,
+    XMarkIcon
   },
 }
 </script>
