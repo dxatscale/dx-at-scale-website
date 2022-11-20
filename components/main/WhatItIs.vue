@@ -36,7 +36,7 @@
             >
               <div
                 v-for="(feature, index) in features"
-                class="group relative rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-6"
+                class="group relative rounded-full py-1 px-4 lg:rounded-r-xl lg:rounded-l-xl lg:p-6"
                 :key="index"
                 :class="[
                   index === selectedTab
@@ -105,32 +105,32 @@ const features = [
   {
     title: "Practices based on Real Projects",
     description:
-      "Sane vetted advises. Curated set of practices based on  our practitioners 'collective' experience in real projects that one can adopt",
+      "Sane vetted advises. Curated set of practices based on  our practitioners 'collective' experience in real projects that one can adopt.",
     image: "img/screenshots/practices2.png",
   },
   {
     title: "Instant Dev Environments",
     description:
-      "Experiment faster with individual environments.Enable your team members with development environments provisioned in minutes not hours.",
+      "Experiment faster with individual environments. Enable your team members with development environments provisioned in minutes not hours.",
     image: "img/screenshots/instant_dev_environments.gif",
   },
   {
     title: "Declarative Orchestrator",
     description:
-      "Do not spend time with custom scripts anymore, the orchestrator uses your sfdx-project.json to build and deploy everything auto-magically",
+      "Do not spend time with custom scripts anymore, the orchestrator uses your sfdx-project.json to build and deploy everything auto-magically.",
     image: "img/screenshots/orchestrator.png",
   },
 
   {
     title: "Use your existing CI/CD system",
     description:
-      "DX@Scale's CI/CD practices and tools are compatible with all major CI/CD platforms, reducing your mainteance costs",
+      "DX@Scale's CI/CD practices and tools are compatible with all major CI/CD platforms, reducing your mainteance costs.",
     image: "img/screenshots/cicd.gif",
   },
   {
     title: "Improve every aspect of your worflow with metrics",
     description:
-      "Monitor time spend on CI, build, deployment and many more. Utilize metrics exposed from your development workflow and integrate with any dashboard/reporting tool of choice",
+      "Monitor time spend on CI, build, deployment and many more. Utilize metrics exposed from your development workflow and integrate with any dashboard/reporting tool of choice.",
     image: "img/screenshots/metrics.png",
   },
 ];
