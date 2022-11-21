@@ -12,7 +12,5 @@ export default defineNuxtConfig({
     transpile: ["@heroicons/vue"],
   },
 
-  meta: [
-    { title: 'test' }
-  ]
+  meta: [{ title: "test" }],
 });
