@@ -18,7 +18,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Mona Sans', ...defaultTheme.fontFamily.sans]
+        sans: ['Biennale', ...defaultTheme.fontFamily.sans]
       }
     }
   }
