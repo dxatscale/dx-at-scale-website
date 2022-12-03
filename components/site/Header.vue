@@ -1,7 +1,7 @@
 <template>
   <header class="relative">
     <Popover class="px-4 sm:px-6 sm:mx-4 md:px-8">
-      <div class="absolute inset-0 bottom-0 bg-bottom bg-cover bg-no-repeat bg-[url('~/assets/img/bg/hero-light.jpg')] dark:bg-[url('~/assets/img/bg/hero-dark.jpg')]">
+      <div class="absolute inset-0 bottom-0 bg-bottom bg-cover bg-no-repeat bg-[url('~/assets/img/bg/hero-light.webp')] dark:bg-[url('~/assets/img/bg/hero-dark.webp')]">
         <div
           class="absolute inset-0 bg-grid-slate-900/[0.04] dark:bg-grid-slate-400/[0.05] dark:bg-bottom"
           style="maskImage: 'linear-gradient(to bottom, transparent, black)' , WebkitMaskImage: 'linear-gradient(to bottom, transparent, black)' , " />

@@ -18,7 +18,7 @@
             </div>
             <div class="col-span-2 sm:mt-0 sm:relative sm:items-center">
               <div class="">
-                <img class="mx-auto h-3/4 w-3/4" src="~/assets/img/rocket.png" alt="" />
+                <img class="mx-auto h-3/4 w-3/4" src="~/assets/img/rocket.webp" alt="" />
               </div>
             </div>
           </div>

@@ -1,9 +1,9 @@
 <template>
-  <section class="py-24 px-8 bg-slate-100 dark:bg-slate-800 text-center">
+<section class="py-24 px-8 bg-slate-50 dark:bg-slate-900 text-center">
     <div class="max-w-7xl mx-auto ">
-      <h2 class="py-12 text-center text-base font-semibold uppercase text-pink-600 dark:text-pink-400 tracking-wider" v-motion-slide-visible-bottom>
+      <p class="py-12 text-center text-base font-semibold uppercase text-pink-600 dark:text-pink-400 tracking-wider" v-motion-slide-visible-bottom>
         Simplify Salesforce Developer Experience at any scale
-      </h2>
+      </p>
       <figure>
         <blockquote  v-motion-fade-visible>
           <p class="mt-6 max-w-3xl mx-auto text-lg text-slate-900 dark:text-white/90">

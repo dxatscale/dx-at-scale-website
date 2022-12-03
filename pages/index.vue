@@ -8,7 +8,6 @@
 
 
 <script setup>
-
   definePageMeta({
     title: 'My home page'
   })
