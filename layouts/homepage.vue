@@ -1,7 +1,6 @@
 <template>
   <main-nav />
   <div class="relative">
-    <home-hero />
     <slot />
   </div>
 </template>
