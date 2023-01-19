@@ -3,11 +3,12 @@ export default defineNuxtConfig({
   build: {
     transpile: ['@heroicons/vue'],
   },
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/fonts/Inter/inter.css', '~/assets/css/main.css'],
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+  modules: ['@pinia/nuxt', '@pinia-plugin-persistedstate/nuxt'],
 })
