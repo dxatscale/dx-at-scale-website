@@ -1,0 +1,1 @@
+<template>Index page</template>
