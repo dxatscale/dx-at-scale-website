@@ -1,4 +1,7 @@
 <template>
+  <section id="modularisation" class="bg-lime-50">
+    <div class="bg-lime-100">test</div>
+  </section>
   <section class="mt-36">
     <div class="container mx-auto max-w-7xl px-4">
       <div>
@@ -11,7 +14,7 @@
     </div>
     <textured-section class="mt-12 bg-slate-100 py-12 dark:bg-slate-900">
       <div class="container mx-auto max-w-7xl px-4">
-        <dl class="grid grid-cols-1 gap-16 text-left lg:grid lg:grid-cols-3">
+        <dl class="grid grid-cols-1 gap-16 text-left lg:grid lg:grid-cols-2">
           <div v-for="feature in features" :key="feature.name">
             <dt>
               <div class="flex h-12 w-12 items-center justify-center rounded-full bg-sky-500 text-white">
@@ -35,11 +38,6 @@ const features = [
     name: 'Increased Efficiency',
     description: 'By breaking up a your Salesforce Org into smaller, independent modules, developers can work on specific project parts simultaneously, speeding up the overall development process.',
     icon: StarIcon,
-  },
-  {
-    name: 'Increased Scalability',
-    description: 'Modular development makes adding new features or functionality to a project easier because the codebase is more organised. This makes adding new modules or components easier without disrupting the existing codebase.',
-    icon: CubeTransparentIcon,
   },
   {
     name: 'Better Maintainability',
