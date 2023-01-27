@@ -17,16 +17,4 @@ useHead({
     class: 'bg-white dark:bg-slate-900',
   },
 })
-
-const code = `
-// Test
-public MarketingContactTarget(Contact contact) {
-    this.record = contact;
-    Integer len = 10;
-    Blob blobKey = crypto.generateAesKey(128);
-    String key = EncodingUtil.convertToHex(blobKey);
-    fakeId = key.substring(0,len);
-
-`
-const lang = 'apex'
 </script>
