@@ -43,5 +43,5 @@ const steps = [
     content: resolveComponent('home-modularisation-two'),
   },
 ]
-const activeTab = ref(0)
+const activeTab = ref(1)
 </script>

@@ -27,7 +27,7 @@
 </template>
 
 <script setup>
-import { StarIcon, CubeTransparentIcon, Cog6ToothIcon } from '@heroicons/vue/24/outline'
+import { StarIcon, Cog6ToothIcon } from '@heroicons/vue/24/outline'
 const features = [
   {
     name: 'Increased Efficiency',

@@ -6,7 +6,7 @@
           <svg class="mr-1 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
           </svg>
-          <p class="font-semibold">HappySoup&trade;</p>
+          <p class="font-semibold">DX@Scale</p>
         </div>
 
         <div class="flex py-1">
@@ -156,17 +156,24 @@
 
 <script setup lang="ts">
 const code = `
-{
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
-  ],
-  "name": "happy-soup",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "56.0"
-}
+{ "packageDirectories": [{
+    "path": "packages/billing/products-pre",
+    "package": "billing-product-catalogue-records-pre",
+    "versionName": "billing-product-catalogue-records-pre-1.1",
+    "versionNumber": "1.5.12.0",
+    "dependencies": [{
+      "package": "Salesforce Billing"
+      },
+      { ... }
+    ]
+  },
+  ...
+  { "path": "packages/billing/products-post", ... },
+  { "path": "packages/case-management/case-config", ... },
+  { "path": "packages/case-management/case-entitlements", ... },
+  { "path": "packages/case-management/case-management-core", ... },
+  { "path": "packages/case-management/web-to-case-api", ... },
+  ...
+]}
 `
 </script>
