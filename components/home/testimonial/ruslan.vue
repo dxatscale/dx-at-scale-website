@@ -1,8 +1,8 @@
 <template>
-  <section class="overflow-hidden py-12 md:py-20 lg:py-24">
+  <section class="mt-36">
     <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
       <div class="relative">
-        <blockquote class="mt-10">
+        <blockquote>
           <div class="mx-auto max-w-3xl text-center text-xl font-medium leading-9 text-gray-700 dark:text-gray-400">
             <p>Since we adopted DX@Scale, it has been the best time and effort investment for our Salesforce delivery pipeline. To make it even more precise: I can't imagine working with other CI/CD solutions on this platform in the future. Roughly, our team's velocity has been multiplied by 3.</p>
           </div>

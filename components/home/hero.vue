@@ -1,5 +1,5 @@
 <template>
-  <section class="relative my-16">
+  <section class="relative mt-16">
     <div class="absolute inset-x-0 isolate transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
       <high-beam />
     </div>

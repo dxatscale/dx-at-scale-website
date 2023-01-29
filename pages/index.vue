@@ -1,8 +1,10 @@
 <template>
   <home-hero />
+  <home-community-users />
   <home-why />
+  <home-statistics />
+  <home-testimonial-ruslan />
   <home-modularisation />
-  <home-testimonial />
   <div class="relative h-[20000px] bg-white dark:bg-slate-900"></div>
 </template>
 
