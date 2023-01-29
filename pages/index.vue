@@ -7,6 +7,7 @@
   <home-modularisation />
   <home-steps />
   <home-packages />
+  <home-pools />
   <div class="relative h-[20000px] bg-white dark:bg-slate-900"></div>
 </template>
 

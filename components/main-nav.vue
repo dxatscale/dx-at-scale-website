@@ -18,7 +18,7 @@
             </div>
           </div>
           <div class="hidden md:flex md:space-x-10">
-            <a v-for="item in navigation" :key="item.name" :href="item.href" class="text-sm font-medium text-slate-700 hover:text-slate-900 dark:text-slate-400 hover:dark:text-slate-200">{{ item.name }}</a>
+            <a v-for="item in navigation" :key="item.name" :href="item.href" target="_blank" class="text-sm font-medium text-slate-700 hover:text-slate-900 dark:text-slate-400 hover:dark:text-slate-200">{{ item.name }}</a>
           </div>
           <div class="hidden md:flex md:items-center">
             <div class="ml-6 mr-3 hidden h-5 w-px bg-slate-900/10 md:block"></div>
@@ -54,7 +54,7 @@
               </div>
             </div>
             <div class="space-y-1 px-2 pt-2 pb-3">
-              <a v-for="item in navigation" :key="item.name" :href="item.href" class="block rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-900/70">{{ item.name }}</a>
+              <a v-for="item in navigation" :key="item.name" :href="item.href" target="_blank" class="block rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-900/70">{{ item.name }}</a>
               <theme-toggler />
             </div>
           </div>
@@ -69,9 +69,9 @@ import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Documentation', href: 'https://docs.dxatscale.io/' },
+  { name: 'Getting Started', href: 'https://docs.dxatscale.io/implementing-your-ci-cd/prerequisites' },
+  { name: 'Release Logs', href: 'https://github.com/dxatscale/dxatscale/releases' },
+  { name: 'Team', href: 'https://docs.dxatscale.io/about-us/meet-our-team' },
 ]
 </script>
