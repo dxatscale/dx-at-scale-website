@@ -97,23 +97,23 @@ html.dark {
   display: inline-block;
   text-align: right;
   color: var(--line-numbers);
-  @apply mr-2 w-10 border-r border-slate-200 px-2 dark:border-slate-800;
+  @apply pointer-events-none mr-2 w-10 select-none border-r border-slate-200 px-2 dark:border-slate-800;
 }
 
 .code code .line.added::before {
-  @apply before:border-green-900 before:content-['---'] dark:bg-slate-800;
+  @apply before:border-green-900 dark:bg-slate-800;
 }
 .code code .line.deleted::before {
   @apply before:border-red-900 dark:bg-slate-800;
 }
 
 .added {
-  @apply w-full border-l-2 border-cyan-400 bg-cyan-400/10 dark:border-cyan-600 dark:bg-cyan-600/10;
+  @apply w-full border-l-2 border-green-400 bg-green-400/10 dark:border-green-600 dark:bg-green-600/10;
 }
 .deleted {
   @apply w-full border-l-2 border-rose-400 bg-rose-400/10 dark:border-rose-600 dark:bg-rose-600/10;
 }
 .highlighted {
-  @apply w-full border-l-2 border-green-500 bg-green-400/20 dark:border-green-600 dark:bg-green-600/10;
+  @apply w-full border-l-2 border-amber-500 bg-amber-400/20 dark:border-amber-600 dark:bg-amber-600/10;
 }
 </style>

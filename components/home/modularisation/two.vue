@@ -20,119 +20,110 @@
           <svg class="mr-1 ml-4 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
           </svg>
-          <p class="w-32 truncate">force-app</p>
+          <p class="w-32 truncate">packages</p>
         </div>
 
         <div class="flex py-1">
           <svg class="mr-1 ml-8 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+          </svg>
+          <p class="w-32 truncate">billing</p>
+        </div>
+
+        <div class="flex py-1">
+          <svg class="mr-1 ml-12 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
           </svg>
-          <p class="w-32 truncate">appMenus</p>
+          <p class="w-32 truncate">products-pre</p>
         </div>
 
         <div class="flex py-1">
-          <svg class="mr-1 ml-8 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
+          <svg class="mr-1 ml-12 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
           </svg>
-          <p class="w-32 truncate">applications</p>
+          <p class="w-32 truncate">products-post</p>
         </div>
 
         <div class="flex py-1">
           <svg class="mr-1 ml-8 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+          </svg>
+          <p class="w-32 truncate">case-management</p>
+        </div>
+
+        <div class="flex py-1">
+          <svg class="mr-1 ml-12 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
           </svg>
-          <p class="w-32 truncate">aura</p>
+          <p class="w-32 truncate">case-config</p>
+        </div>
+
+        <div class="flex py-1">
+          <svg class="mr-1 ml-12 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+          </svg>
+          <p class="w-32 truncate">case-entitlements</p>
+        </div>
+
+        <div class="flex py-1">
+          <svg class="mr-1 ml-12 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+          </svg>
+          <p class="w-32 truncate">case-management</p>
+        </div>
+
+        <div class="flex py-1">
+          <svg class="mr-1 ml-12 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+          </svg>
+          <p class="w-32 truncate">web-to-case-api</p>
+        </div>
+
+        <div class="flex py-1">
+          <svg class="mr-1 ml-12 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+          </svg>
+          <svg class="mr-1 w-4" viewBox="0 0 16 16"><path fill="currentColor" d="M4 8a1 1 0 1 1-2 0a1 1 0 0 1 2 0zm5 0a1 1 0 1 1-2 0a1 1 0 0 1 2 0zm5 0a1 1 0 1 1-2 0a1 1 0 0 1 2 0z" /></svg>
         </div>
 
         <div class="flex py-1">
           <svg class="mr-1 ml-8 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+          </svg>
+          <p class="w-32 truncate">marketing/marketing-preferences</p>
+        </div>
+
+        <div class="flex py-1">
+          <svg class="mr-1 ml-12 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
           </svg>
           <p class="w-32 truncate">classes</p>
         </div>
 
         <div class="flex py-1">
-          <svg class="mr-1 ml-8 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
+          <svg class="mr-1 ml-12 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
           </svg>
-          <p class="w-32 truncate">contentAssets</p>
+          <p class="w-32 truncate">customMetadata</p>
         </div>
 
         <div class="flex py-1">
-          <svg class="mr-1 ml-8 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
+          <svg class="mr-1 ml-12 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
           </svg>
-          <p class="w-32 truncate">flexipages</p>
+          <p class="w-32 truncate">test</p>
         </div>
 
         <div class="flex py-1">
-          <svg class="mr-1 ml-8 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-          </svg>
-          <p class="w-32 truncate">flows</p>
+          <svg class="mr-1 ml-12 w-4 text-slate-400" viewBox="0 0 16 16"><path fill="currentColor" d="M6.345 5h2.1v6.533H6.993l.055-5.31l-1.774 5.31H4.072l-1.805-5.31c.04.644.06 5.31.06 5.31H1V5h2.156s1.528 4.493 1.577 4.807L6.345 5zm6.71 3.617v-3.5H11.11v3.5H9.166l2.917 2.916L15 8.617h-1.945z" /></svg>
+          <p class="w-32 truncate">README.md</p>
         </div>
 
         <div class="flex py-1">
-          <svg class="mr-1 ml-8 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
+          <svg class="mr-1 ml-12 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
           </svg>
-          <p class="w-32 truncate">layouts</p>
-        </div>
-
-        <div class="flex py-1">
-          <svg class="mr-1 ml-8 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-          </svg>
-          <p class="w-32 truncate">lwc</p>
-        </div>
-
-        <div class="flex py-1">
-          <svg class="mr-1 ml-8 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-          </svg>
-          <p class="w-32 truncate">objects</p>
-        </div>
-
-        <div class="flex py-1">
-          <svg class="mr-1 ml-8 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-          </svg>
-          <p class="w-32 truncate">permissionsetgroups</p>
-        </div>
-
-        <div class="flex py-1">
-          <svg class="mr-1 ml-8 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-          </svg>
-          <p class="w-32 truncate">permissionsets</p>
-        </div>
-
-        <div class="flex py-1">
-          <svg class="mr-1 ml-8 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-          </svg>
-          <p class="w-32 truncate">profiles</p>
-        </div>
-
-        <div class="flex py-1">
-          <svg class="mr-1 ml-8 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-          </svg>
-          <p class="w-32 truncate">quickActions</p>
-        </div>
-
-        <div class="flex py-1">
-          <svg class="mr-1 ml-8 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-          </svg>
-          <p class="w-32 truncate">tabs</p>
-        </div>
-
-        <div class="flex py-1">
-          <svg class="mr-1 ml-8 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-          </svg>
-          <p class="w-32 truncate">triggers</p>
+          <svg class="mr-1 w-4" viewBox="0 0 16 16"><path fill="currentColor" d="M4 8a1 1 0 1 1-2 0a1 1 0 0 1 2 0zm5 0a1 1 0 1 1-2 0a1 1 0 0 1 2 0zm5 0a1 1 0 1 1-2 0a1 1 0 0 1 2 0z" /></svg>
         </div>
 
         <div class="flex rounded-sm bg-sky-600/10 py-1 text-sky-600 dark:bg-slate-700/50 dark:text-sky-300">
@@ -156,24 +147,31 @@
 
 <script setup lang="ts">
 const code = `
-{ "packageDirectories": [{
-    "path": "packages/billing/products-pre",
-    "package": "billing-product-catalogue-records-pre",
-    "versionName": "billing-product-catalogue-records-pre-1.1",
-    "versionNumber": "1.5.12.0",
-    "dependencies": [{
-      "package": "Salesforce Billing"
-      },
-      { ... }
-    ]
-  },
-  ...
-  { "path": "packages/billing/products-post", ... },
-  { "path": "packages/case-management/case-config", ... },
-  { "path": "packages/case-management/case-entitlements", ... },
-  { "path": "packages/case-management/case-management-core", ... },
-  { "path": "packages/case-management/web-to-case-api", ... },
-  ...
-]}
+{
+   "packageDirectories": [
+-  {
+-      "path": "force-app",
+-      "default": true
+-    }
++  {
++      "path": "packages/billing/products-pre",
++      "package": "billing-product-catalogue-records-pre",
++      "versionName": "billing-product-catalogue-records-pre-1.1",
++      "versionNumber": "1.5.12.0",
++      "dependencies": [{
++        "package": "Salesforce Billing"
++        },
++        { ... }
++      ]
++    },
++    ...
++    { "path": "packages/billing/products-post", ... },
++    { "path": "packages/case-management/case-config", ... },
++    { "path": "packages/case-management/case-entitlements", ... },
++    { "path": "packages/case-management/case-management-core", ... },
++    { "path": "packages/case-management/web-to-case-api", ... },
++    ...
++  ]
++}
 `
 </script>
