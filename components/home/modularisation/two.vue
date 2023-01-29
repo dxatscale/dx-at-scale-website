@@ -152,7 +152,7 @@ const code = `
 -  {
 -      "path": "force-app",
 -      "default": true
--    }
+-  }
 +  {
 +      "path": "packages/billing/products-pre",
 +      "package": "billing-product-catalogue-records-pre",
@@ -172,6 +172,6 @@ const code = `
 +    { "path": "packages/case-management/web-to-case-api", ... },
 +    ...
 +  ]
-+}
+}
 `
 </script>
