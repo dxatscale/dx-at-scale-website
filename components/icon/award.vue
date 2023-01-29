@@ -89,17 +89,3 @@
     </svg>
   </div>
 </template>
-
-<style>
-.stroke-main {
-  @apply stroke-sky-600 dark:stroke-white/50;
-}
-
-.fill-main {
-  @apply fill-sky-500 dark:fill-sky-800;
-}
-
-.fill-deemphasise {
-  @apply fill-sky-100 dark:fill-sky-900/0;
-}
-</style>
