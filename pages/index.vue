@@ -5,6 +5,7 @@
   <home-statistics />
   <home-testimonial-ruslan />
   <home-modularisation />
+  <home-steps />
   <div class="relative h-[20000px] bg-white dark:bg-slate-900"></div>
 </template>
 
