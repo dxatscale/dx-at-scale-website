@@ -39,7 +39,7 @@ const steps = [
   },
   {
     name: 'After',
-    icon: resolveComponent('icon-food-container'),
+    icon: resolveComponent('icon-package'),
     content: resolveComponent('home-modularisation-two'),
   },
 ]
