@@ -50,5 +50,5 @@ const steps = [
     content: resolveComponent('home-steps-three'),
   },
 ]
-const activeTab = ref(1)
+const activeTab = ref(0)
 </script>
