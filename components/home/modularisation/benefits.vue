@@ -19,8 +19,8 @@
       </a>
     </div>
     <div class="relative col-span-12 lg:col-span-7">
-      <div class="lg:absolute lg:inset-0 lg:-mt-12 lg:overflow-hidden">
-        <img class="h-full w-full object-cover lg:rounded-xl" src="~/assets/img/pools/cicd.webp" />
+      <div class="lg:absolute lg:inset-0 lg:-mt-8 lg:w-[960px]">
+        <slot />
       </div>
     </div>
   </div>

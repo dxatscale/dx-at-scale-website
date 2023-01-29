@@ -14,6 +14,7 @@ specifiers:
   postcss: ^8.4.21
   prettier: ^2.8.3
   prettier-plugin-tailwindcss: ^0.2.1
+  shiki-es: ^0.2.0
   tailwindcss: ^3.2.4
 
 dependencies:
@@ -25,6 +26,7 @@ dependencies:
   '@tailwindcss/forms': 0.5.3_tailwindcss@3.2.4
   '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.4
   mini-svg-data-uri: 1.4.4
+  shiki-es: 0.2.0
 
 devDependencies:
   autoprefixer: 10.4.13_postcss@8.4.21
@@ -4011,6 +4013,10 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
     dev: true
+
+  /shiki-es/0.2.0:
+    resolution: {integrity: sha512-RbRMD+IuJJseSZljDdne9ThrUYrwBwJR04FvN4VXpfsU3MNID5VJGHLAD5je/HGThCyEKNgH+nEkSFEWKD7C3Q==}
+    dev: false
 
   /signal-exit/3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
