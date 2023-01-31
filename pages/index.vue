@@ -7,11 +7,11 @@
   <home-modularisation />
   <home-testimonial-dieffrei />
   <home-steps />
-  <home-testimonial-jan />
+  <home-testimonial-niels />
   <home-packages />
   <home-testimonial-enea />
   <home-pools />
-  <home-orchestrator />
+  <!-- <home-orchestrator /> -->
 </template>
 
 <script setup>

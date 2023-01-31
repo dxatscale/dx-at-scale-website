@@ -9,7 +9,7 @@
           <footer class="mt-8">
             <div class="md:flex md:items-center md:justify-center">
               <div class="md:flex-shrink-0">
-                <img class="mx-auto h-10 w-10 rounded-full" src="https://media.licdn.com/dms/image/C4E03AQFDudOMIGklYw/profile-displayphoto-shrink_100_100/0/1572809246930?e=1680739200&v=beta&t=dpRItsQwGUcs7KuXhfs0CTcaMRiOCMgpOx4N4ggMJdo" alt="" />
+                <img class="mx-auto h-20 w-20 rounded-full" src="https://media.licdn.com/dms/image/C4E03AQFDudOMIGklYw/profile-displayphoto-shrink_100_100/0/1572809246930?e=1680739200&v=beta&t=dpRItsQwGUcs7KuXhfs0CTcaMRiOCMgpOx4N4ggMJdo" alt="" />
               </div>
               <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
                 <div class="text-base font-medium text-gray-700 dark:text-gray-400">Diéffrei Tiepo de Quadros</div>

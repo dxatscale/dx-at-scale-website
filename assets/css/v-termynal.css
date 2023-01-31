@@ -1,0 +1,28 @@
+:root {
+  --vt-color-bg: var(--color-slate-100);
+  --vt-color-text: var(--color-slate-700);
+  --vt-color-text-subtle: var(--color-slate-500);
+  --vt-color-btn: var(--color-slate-400);
+  --vt-color-btn-hover: var(--color-slate-700);
+}
+
+html.dark {
+  --vt-color-bg: var(--color-slate-800);
+  --vt-color-text: var(--color-slate-300);
+  --vt-color-text-subtle: var(--color-slate-500);
+  --vt-color-btn: var(--color-slate-700);
+  --vt-color-btn-hover: var(--color-slate-500);
+}
+
+.v-termynal {
+  @apply p-4 font-mono text-sm;
+}
+
+.v-termynal::after,
+.v-termynal::before {
+  @apply hidden;
+}
+
+.v-termynal .vt__line {
+  @apply leading-normal;
+}

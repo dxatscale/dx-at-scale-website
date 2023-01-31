@@ -1,4 +1,5 @@
-@import "base.css";
-@import "fonts.css";
-@tailwind components;
-@tailwind utilities;
+@import 'base.css';
+@import 'fonts.css';
+@import 'v-termynal.css';
+@import 'components.css';
+@import 'utilities.css';
