@@ -23,7 +23,7 @@
       </div>
     </div>
   </div>
-  <div class="relative">
+  <div class="relative overflow-hidden">
     <textured-section>
       <component :is="steps[activeTab].content" />
     </textured-section>

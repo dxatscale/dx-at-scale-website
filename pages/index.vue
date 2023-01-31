@@ -5,10 +5,13 @@
   <home-statistics />
   <home-testimonial-ruslan />
   <home-modularisation />
+  <home-testimonial-dieffrei />
   <home-steps />
+  <home-testimonial-jan />
   <home-packages />
+  <home-testimonial-enea />
   <home-pools />
-  <div class="relative h-[20000px] bg-white dark:bg-slate-900"></div>
+  <!-- <home-orchestrator /> -->
 </template>
 
 <script setup>

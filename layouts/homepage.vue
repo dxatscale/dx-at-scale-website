@@ -3,6 +3,7 @@
   <div class="relative">
     <slot />
   </div>
+  <site-footer />
 </template>
 
 <script setup>
