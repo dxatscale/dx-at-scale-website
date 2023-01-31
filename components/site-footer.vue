@@ -1,6 +1,6 @@
 <template>
-  <footer class="bg-slate-50 dark:bg-slate-900">
-    <div class="mx-auto max-w-7xl overflow-hidden py-20 px-4">
+  <footer class="bg-slate-100 py-20 dark:bg-slate-800">
+    <div class="mx-auto max-w-7xl overflow-hidden px-4">
       <div class="grid grid-cols-12 space-x-3">
         <div class="col-span-3">
           <a href="https://www.netlify.com"><img src="https://www.netlify.com/v3/img/components/netlify-dark.svg" alt="Deploys by Netlify" /></a>
@@ -14,13 +14,13 @@
         </div>
       </div>
     </div>
+    <div class="mt-10 flex justify-center space-x-10">
+      <a v-for="item in navigation.social" :key="item.name" :href="item.href" target="_blank" class="text-slate-500 hover:text-slate-700 dark:hover:text-slate-300">
+        <span class="sr-only">{{ item.name }}</span>
+        <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
+      </a>
+    </div>
   </footer>
-  <div class="flex justify-center space-x-10 pb-10">
-    <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-slate-400 hover:text-slate-500 dark:text-slate-600">
-      <span class="sr-only">{{ item.name }}</span>
-      <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
-    </a>
-  </div>
 </template>
 
 <script setup>
