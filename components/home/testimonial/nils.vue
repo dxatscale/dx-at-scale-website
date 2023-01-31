@@ -12,7 +12,7 @@
                 <img class="mx-auto h-20 w-20 rounded-full" src="~/assets/img/photos/niels.webp" alt="" />
               </div>
               <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
-                <div class="text-base font-medium text-gray-700 dark:text-gray-400">Niels Schuch</div>
+                <div class="text-base font-medium text-gray-700 dark:text-gray-400">Nils Schuch</div>
 
                 <svg class="mx-1 hidden h-5 w-5 text-sky-600 md:block" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M11 0h3L9 20H6l5-20z" />

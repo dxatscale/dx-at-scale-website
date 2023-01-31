@@ -7,7 +7,7 @@
   <home-modularisation />
   <home-testimonial-dieffrei />
   <home-steps />
-  <home-testimonial-niels />
+  <home-testimonial-nils />
   <home-packages />
   <home-testimonial-enea />
   <home-pools />
