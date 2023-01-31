@@ -26,7 +26,7 @@
       </div>
     </div>
   </div>
-  <div class="relative bg-pink-100 dark:bg-slate-900">
+  <div class="relative overflow-hidden">
     <textured-section>
       <component :is="steps[activeTab].content" />
     </textured-section>
