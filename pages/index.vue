@@ -11,7 +11,7 @@
   <home-packages />
   <home-testimonial-enea />
   <home-pools />
-  <!-- <home-orchestrator /> -->
+  <home-orchestrator />
 </template>
 
 <script setup>

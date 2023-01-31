@@ -38,6 +38,11 @@ import { ref } from 'vue'
 
 const steps = [
   {
+    name: 'test',
+    icon: resolveComponent('icon-timeline-arrow'),
+    content: resolveComponent('home-orchestrator-test'),
+  },
+  {
     name: 'Capabilities',
     icon: resolveComponent('icon-timeline-arrow'),
     content: resolveComponent('home-pools-one'),
