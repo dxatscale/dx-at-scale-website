@@ -1,0 +1,49 @@
+<template>
+  <!--
+                  {
+            "path": "packages/sales/products-post",
+            "package": "product-catalogue-records-post",
+            "versionName": "product-catalogue-records-post-1.0",
+            "versionNumber": "1.5.12.0",
+            "type": "data",
+            "assignPermSetsPreDeployment": [
+                "CPQUser",
+                "PriceMaintainerV1",
+                "SalesUserV1"
+            ],
+            "buildCollection": [
+                "product-catalogue-records-pre"
+            ]
+        }-->
+  <vscode code="" lang="json" :explorer-visible="false">
+    <template v-slot:code>
+      <pre class="shiki"><code><span class="line"><span style="color: var(--shiki-token-punctuation)">...</span></span>
+<span class="line"><span style="color: var(--shiki-token-punctuation)">  {</span></span>
+<span class="line"><span style="color: var(--shiki-token-punctuation)">      </span><span style="color: var(--shiki-token-keyword)">"path"</span><span style="color: var(--shiki-token-punctuation)">: </span><span style="color: var(--shiki-token-string-expression)">"packages/tagging/tagging-records"</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color: var(--shiki-token-punctuation)">      </span><span style="color: var(--shiki-token-keyword)">"package"</span><span style="color: var(--shiki-token-punctuation)">: </span><span style="color: var(--shiki-token-string-expression)">"tagging-records"</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color: var(--shiki-token-punctuation)">      </span><span style="color: var(--shiki-token-keyword)">"versionName"</span><span style="color: var(--shiki-token-punctuation)">: </span><span style="color: var(--shiki-token-string-expression)">"tagging-records-1.0"</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color: var(--shiki-token-punctuation)">      </span><span style="color: var(--shiki-token-keyword)">"versionNumber"</span><span style="color: var(--shiki-token-punctuation)">: </span><span style="color: var(--shiki-token-string-expression)">"1.0.1.NEXT"</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span class="line added"><span style="color: var(--shiki-token-punctuation)">      </span><span style="color: var(--shiki-token-keyword)">"type"</span><span style="color: var(--shiki-token-punctuation)">: </span><span style="color: var(--shiki-token-string-expression)">"data"</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span class="line added"><span style="color: var(--shiki-token-punctuation)">      </span><span style="color: var(--shiki-token-keyword)">"assignPermSetsPreDeployment"</span><span style="color: var(--shiki-token-punctuation)">: [</span></span>
+<span class="line added"><span style="color: var(--shiki-token-punctuation)">          </span><span style="color: var(--shiki-token-string-expression)">"TaggingUser"</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span class="line added"><span style="color: var(--shiki-token-punctuation)">          </span><span style="color: var(--shiki-token-string-expression)">"TaggingManagement"</span></span>
+<span class="line added"><span style="color: var(--shiki-token-punctuation)">      ]</span></span>
+<span class="line"><span style="color: var(--shiki-token-punctuation)">  }, {</span></span>
+<span class="line"><span style="color: var(--shiki-token-punctuation)">      </span><span style="color: var(--shiki-token-keyword)">"path"</span><span style="color: var(--shiki-token-punctuation)">: </span><span style="color: var(--shiki-token-string-expression)">"packages/sales/products-post"</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color: var(--shiki-token-punctuation)">      </span><span style="color: var(--shiki-token-keyword)">"package"</span><span style="color: var(--shiki-token-punctuation)">: </span><span style="color: var(--shiki-token-string-expression)">"product-catalogue-records-post"</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color: var(--shiki-token-punctuation)">      </span><span style="color: var(--shiki-token-keyword)">"versionName"</span><span style="color: var(--shiki-token-punctuation)">: </span><span style="color: var(--shiki-token-string-expression)">"product-catalogue-records-post-1.2"</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color: var(--shiki-token-punctuation)">      </span><span style="color: var(--shiki-token-keyword)">"versionNumber"</span><span style="color: var(--shiki-token-punctuation)">: </span><span style="color: var(--shiki-token-string-expression)">"1.5.12.0"</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color: var(--shiki-token-punctuation)">      </span><span style="color: var(--shiki-token-keyword)">"default"</span><span style="color: var(--shiki-token-punctuation)">: </span><span style="color: var(--shiki-token-keyword)">false</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span class="line added"><span style="color: var(--shiki-token-punctuation)">      </span><span style="color: var(--shiki-token-keyword)">"type"</span><span style="color: var(--shiki-token-punctuation)">: </span><span style="color: var(--shiki-token-string-expression)">"data"</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span class="line added"><span style="color: var(--shiki-token-punctuation)">      </span><span style="color: var(--shiki-token-keyword)">"assignPermSetsPreDeployment"</span><span style="color: var(--shiki-token-punctuation)">: [</span></span>
+<span class="line added"><span style="color: var(--shiki-token-punctuation)">          </span><span style="color: var(--shiki-token-string-expression)">"CPQUser"</span><span style="color: var(--shiki-token-punctuation)">,</span></span>
+<span class="line added"><span style="color: var(--shiki-token-punctuation)">          </span><span style="color: var(--shiki-token-string-expression)">"PriceMaintainerV1"</span></span>
+<span class="line added"><span style="color: var(--shiki-token-punctuation)">      ],</span></span>
+<span class="line added"><span style="color: var(--shiki-token-punctuation)">      </span><span style="color: var(--shiki-token-keyword)">"buildCollection"</span><span style="color: var(--shiki-token-punctuation)">: [</span></span>
+<span class="line added"><span style="color: var(--shiki-token-punctuation)">          </span><span style="color: var(--shiki-token-string-expression)">"product-catalogue-records-pre"</span></span>
+<span class="line added"><span style="color: var(--shiki-token-punctuation)">      ],</span></span>
+<span class="line"><span style="color: var(--shiki-token-punctuation)">  }, {</span></span>
+<span class="line"><span style="color: var(--shiki-token-punctuation)">...</span></span></code></pre>
+    </template>
+  </vscode>
+</template>
