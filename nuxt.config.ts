@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   build: {
     transpile: ['@heroicons/vue'],
   },
-  css: ['~/assets/fonts/inter/inter.css', '~/assets/css/main.css', '~/assets/css/v-termynal.css'],
+  css: ['~/assets/fonts/inter/inter.css', '~/assets/css/main.css'],
   postcss: {
     plugins: {
       tailwindcss: {},

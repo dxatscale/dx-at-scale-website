@@ -15,12 +15,12 @@ html.dark {
 }
 
 .v-termynal {
-  @apply p-4 font-mono text-sm;
+  @apply !w-full !p-2 !font-mono !text-sm;
 }
 
 .v-termynal::after,
 .v-termynal::before {
-  @apply hidden;
+  @apply !hidden;
 }
 
 .v-termynal .vt__line {
