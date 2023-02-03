@@ -15,7 +15,7 @@ html.dark .terminal {
 }
 
 .v-termynal {
-  @apply !w-full !p-2 !font-mono !text-sm;
+  @apply !w-full !p-0 !font-mono !text-sm;
 }
 
 .v-termynal::after,
