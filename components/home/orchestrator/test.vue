@@ -32,13 +32,16 @@ const container = ref<HTMLDivElement | null>(null)
 
 const scrollToNewLine = (event: Event) => {
   let line = event as HTMLElement | unknown
-  console.log(line.offsetTop)
 
-  if (line.offsetTop + line.offsetHeight > container.value?.offsetHeight) {
-    container.value?.scrollTo({
-      top: line.offsetTop + line.offsetHeight - container.value?.offsetHeight,
-      behavior: 'smooth',
-    })
+  if (line instanceof HTMLElement && container.value) {
+    if (line.offsetTop + line.offsetHeight > container.value?.offsetHeight) {
+      container.value?.scrollTo({
+        top: line.offsetTop + line.offsetHeight - container.value?.offsetHeight,
+        behavior: 'smooth',
+      })
+    }
+  } else {
+    return
   }
 }
 </script>
