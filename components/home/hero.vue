@@ -16,11 +16,11 @@
         </h1>
         <p class="mt-8 max-w-3xl text-xl tracking-tight text-slate-700 dark:text-slate-300 md:text-2xl">Streamline your Salesforce application lifecycle by enhancing the experience of your developers and admins.</p>
         <div class="mt-16 flex flex-col items-stretch justify-center gap-2 text-sm sm:flex-row sm:gap-4 md:justify-start">
-          <a class="group relative inline-flex items-center justify-center rounded-full px-6 py-2 font-semibold text-slate-900 ring-2 ring-sky-600 dark:text-slate-200" href="#">
+          <a class="group relative inline-flex items-center justify-center rounded-full px-6 py-2 font-semibold text-slate-900 ring-2 ring-sky-600 dark:text-slate-200" href="https://docs.dxatscale.io/implementing-your-ci-cd/getting-started">
             Get started
             <chevron-right class="ml-2 h-5 w-5" aria-hidden="true" />
           </a>
-          <a class="group relative inline-flex justify-center px-6 py-2 font-semibold text-slate-900 dark:text-slate-200" href="#">
+          <a class="group relative inline-flex justify-center px-6 py-2 font-semibold text-slate-900 dark:text-slate-200" href="https://launchpass.com/dxatscale">
             Join the Community
             <chevron-right class="ml-2 h-5 w-5" />
           </a>
