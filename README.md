@@ -1,6 +1,6 @@
-# Nuxt 3 Starter with TailwindCSS, TailwindUI and Prettier
+# Homepage for dxatscale.io
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Please follow the below instructions to develop locall
 
 ## Setup
 
