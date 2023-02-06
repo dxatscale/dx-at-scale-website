@@ -22,7 +22,7 @@
         </div>
       </div>
     </div>
-    <div class="relative overflow-hidden">
+    <div class="relative overflow-hidden pb-8">
       <textured-section>
         <component :is="steps[activeTab].content" />
       </textured-section>
@@ -50,5 +50,5 @@ const steps = [
     content: resolveComponent('home-steps-three'),
   },
 ]
-const activeTab = ref(0)
+const activeTab = ref(1)
 </script>
