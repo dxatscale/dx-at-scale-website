@@ -10,9 +10,9 @@
   <home-testimonial-nils />
   <home-packages />
   <home-testimonial-enea />
-  <home-pools />
-  <home-testimonial-vernon />
   <home-orchestrator />
+  <home-testimonial-vernon />
+  <home-pools />
 </template>
 
 <script setup>
