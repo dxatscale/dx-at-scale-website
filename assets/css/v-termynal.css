@@ -1,5 +1,5 @@
 .terminal {
-  --vt-color-bg: var(--color-slate-100);
+  --vt-color-bg: #00000000;
   --vt-color-text: var(--color-slate-700);
   --vt-color-text-subtle: var(--color-slate-500);
   --vt-color-btn: var(--color-slate-400);
@@ -7,7 +7,7 @@
 }
 
 html.dark .terminal {
-  --vt-color-bg: var(--color-slate-800);
+  --vt-color-bg: #00000000;
   --vt-color-text: var(--color-slate-300);
   --vt-color-text-subtle: var(--color-slate-500);
   --vt-color-btn: var(--color-slate-700);
