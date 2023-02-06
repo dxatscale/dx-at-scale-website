@@ -1,5 +1,5 @@
 <template>
-  <section class="my-36">
+  <section class="mt-36">
     <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
       <div class="relative">
         <blockquote>

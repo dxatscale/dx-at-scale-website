@@ -12,7 +12,7 @@
   <home-testimonial-enea />
   <home-pools />
   <home-testimonial-vernon />
-  <!-- <home-orchestrator /> -->
+  <home-orchestrator />
 </template>
 
 <script setup>

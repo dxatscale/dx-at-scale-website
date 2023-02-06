@@ -13,10 +13,6 @@ const getLineOptions = (code: String) => {
   let lineOptions: { index: number; content: string }[] = []
   let formattedCode: String = ''
   splitLines(code).forEach((line: string, index: number) => {
-    if (line.trim() === '') {
-      formattedCode += 'tada'
-    }
-
     switch (line[0]) {
       case '-':
         lineOptions.push({ line: index + 1, classes: ['deleted'] })
@@ -54,7 +50,7 @@ const hlCode = await useShiki(ref(formattedCode), {
   @apply leading-relaxed;
 }
 :root {
-  --shiki-color-background: var(--color-slate-50);
+  --shiki-color-background: #00000000;
   --shiki-token-keyword: var(--color-sky-700);
   --shiki-token-comment: var(--color-slate-300);
   --shiki-token-punctuation: var(--color-slate-400);
@@ -71,7 +67,7 @@ const hlCode = await useShiki(ref(formattedCode), {
 }
 
 html.dark {
-  --shiki-color-background: var(--color-slate-900);
+  --shiki-color-background: #00000000;
   --shiki-token-keyword: var(--color-sky-300);
   --shiki-token-comment: var(--color-slate-600);
   --shiki-token-punctuation: var(--color-slate-700);
