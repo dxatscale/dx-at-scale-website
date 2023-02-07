@@ -22,16 +22,16 @@
             <div ref="container" class="line-container font-mono text-xs">
               <vt-input class="prompt">sfdx sfpowerscripts:orchestrator:quickbuild -v MyDevHub --branch main</vt-input>
               <vt-spinner />
-              <vt-text :line-delay="0" class="text-amber-500">-------------------------------------------------------------------------------------------</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">sfpowerscripts -- The DX@Scale CI/CD Orchestrator -Version:20.2.11 -Release:November 22</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">-------------------------------------------------------------------------------------------</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">command: quickbuild</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">Build Packages Only Changed: false</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">Config File Path: config/project-scratch-def.json</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">Artifact Directory: artifacts</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">--------------------------------------------------------------</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">-------------------------------------------------------------------------------------------</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">sfpowerscripts -- The DX@Scale CI/CD Orchestrator -Version:20.2.11 -Release:November 22</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">-------------------------------------------------------------------------------------------</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">command: quickbuild</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">Build Packages Only Changed: false</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">Config File Path: config/project-scratch-def.json</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">Artifact Directory: artifacts</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">--------------------------------------------------------------</vt-text>
               <vt-spinner :line-delay="0" prefix="Invoking Build" type="point"></vt-spinner>
-              <vt-text :line-delay="0" class="text-purple-500">Packages scheduled for build</vt-text>
+              <vt-text :line-delay="0" class="text-purple-700 dark:text-purple-400">Packages scheduled for build</vt-text>
               <vt-text :line-delay="0">Package&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Reason to be built</vt-text>
               <vt-text :line-delay="0">--------------- --------------------------------------</vt-text>
               <vt-text :line-delay="0">ESBaseStylesLWC Changed</vt-text>
@@ -42,32 +42,32 @@
               <vt-text :line-delay="0">&nbsp;&nbsp;&nbsp;&nbsp;Packages currently processed: {1} ESBaseStylesLWC</vt-text>
               <vt-text :line-delay="0">&nbsp;&nbsp;&nbsp;&nbsp;Awaiting Dependencies to be resolved: {1} ESBaseCodeLWC</vt-text>
               <vt-text :line-delay="700"></vt-text>
-              <vt-text :line-delay="0" class="text-purple-500">&nbsp;&nbsp;&nbsp;&nbsp;Package creation initiated for ESBaseStylesWC</vt-text>
+              <vt-text :line-delay="0" class="text-purple-700 dark:text-purple-400">&nbsp;&nbsp;&nbsp;&nbsp;Package creation initiated for ESBaseStylesWC</vt-text>
 
               <vt-text :line-delay="700"></vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">&nbsp;&nbsp;&nbsp;&nbsp;ESBaseStylesLWC package created in 00:00:20.183</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">&nbsp;&nbsp;&nbsp;&nbsp;-- Package Details:--</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">&nbsp;&nbsp;&nbsp;&nbsp;Package Type : unlocked</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">&nbsp;&nbsp;&nbsp;&nbsp;Package Version Number : 55.0.1.1</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">&nbsp;&nbsp;&nbsp;&nbsp;Package Version Id : 04t5f000000ABAA0</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">&nbsp;&nbsp;&nbsp;&nbsp;Metadata Count : 32</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">&nbsp;&nbsp;&nbsp;&nbsp;Apex In Package : No</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">&nbsp;&nbsp;&nbsp;&nbsp;Profiles In Package : No</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">&nbsp;&nbsp;&nbsp;&nbsp;ESBaseStylesLWC package created in 00:00:20.183</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">&nbsp;&nbsp;&nbsp;&nbsp;-- Package Details:--</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">&nbsp;&nbsp;&nbsp;&nbsp;Package Type : unlocked</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">&nbsp;&nbsp;&nbsp;&nbsp;Package Version Number : 55.0.1.1</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">&nbsp;&nbsp;&nbsp;&nbsp;Package Version Id : 04t5f000000ABAA0</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">&nbsp;&nbsp;&nbsp;&nbsp;Metadata Count : 32</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">&nbsp;&nbsp;&nbsp;&nbsp;Apex In Package : No</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">&nbsp;&nbsp;&nbsp;&nbsp;Profiles In Package : No</vt-text>
               <vt-text :line-delay="700"></vt-text>
-              <vt-text :line-delay="0" class="text-purple-500">&nbsp;&nbsp;&nbsp;&nbsp;Package creation initiated for ESBaseCodeLWC</vt-text>
+              <vt-text :line-delay="0" class="text-purple-700 dark:text-purple-400">&nbsp;&nbsp;&nbsp;&nbsp;Package creation initiated for ESBaseCodeLWC</vt-text>
               <vt-text :line-delay="0"></vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">&nbsp;&nbsp;&nbsp;&nbsp;ESBaseCodeLWC package created in 00:01:26.86</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">&nbsp;&nbsp;&nbsp;&nbsp;-- Package Details:--</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">&nbsp;&nbsp;&nbsp;&nbsp;Package Type : unlocked</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">&nbsp;&nbsp;&nbsp;&nbsp;Package Version Number : 55.0.0.33</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">&nbsp;&nbsp;&nbsp;&nbsp;Package Version Id : 04t5f0000NtABCAA0</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">&nbsp;&nbsp;&nbsp;&nbsp;Metadata Count : 68</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">&nbsp;&nbsp;&nbsp;&nbsp;Apex In Package : Yes</vt-text>
-              <vt-text :line-delay="0" class="text-amber-500">&nbsp;&nbsp;&nbsp;&nbsp;Profiles In Package : No</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">&nbsp;&nbsp;&nbsp;&nbsp;ESBaseCodeLWC package created in 00:01:26.86</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">&nbsp;&nbsp;&nbsp;&nbsp;-- Package Details:--</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">&nbsp;&nbsp;&nbsp;&nbsp;Package Type : unlocked</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">&nbsp;&nbsp;&nbsp;&nbsp;Package Version Number : 55.0.0.33</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">&nbsp;&nbsp;&nbsp;&nbsp;Package Version Id : 04t5f0000NtABCAA0</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">&nbsp;&nbsp;&nbsp;&nbsp;Metadata Count : 68</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">&nbsp;&nbsp;&nbsp;&nbsp;Apex In Package : Yes</vt-text>
+              <vt-text :line-delay="0" class="text-amber-700 dark:text-amber-300">&nbsp;&nbsp;&nbsp;&nbsp;Profiles In Package : No</vt-text>
               <vt-text :line-delay="700"></vt-text>
-              <vt-text :line-delay="0" class="text-green-500">----------------------------------------------------------------------------------------------------</vt-text>
-              <vt-text :line-delay="0" class="text-green-500">2 packages created in 00:00:02.832 minutes with {0} errors}</vt-text>
-              <vt-text :line-delay="0" class="text-green-500">----------------------------------------------------------------------------------------------------</vt-text>
+              <vt-text :line-delay="0" class="text-green-700 dark:text-green-300">----------------------------------------------------------------------------------------------------</vt-text>
+              <vt-text :line-delay="0" class="text-green-700 dark:text-green-300">2 packages created in 00:00:02.832 minutes with {0} errors}</vt-text>
+              <vt-text :line-delay="0" class="text-green-700 dark:text-green-300">----------------------------------------------------------------------------------------------------</vt-text>
             </div>
           </v-termynal>
         </div>
