@@ -22,7 +22,7 @@
         </div>
       </div>
     </div>
-    <div class="relative overflow-hidden">
+    <div class="relative overflow-hidden pb-16">
       <textured-section>
         <component :is="steps[activeTab].content" />
       </textured-section>
