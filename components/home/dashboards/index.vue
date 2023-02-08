@@ -8,7 +8,6 @@
       <p class="mt-3 text-3xl font-bold tracking-tight text-slate-900 dark:text-white">You can only improve what you measure.</p>
       <div class="prose mt-6 leading-normal text-slate-700 dark:text-slate-300">
         <p>Metrics should be a key part of any development process. That's the reason why DX@Scale is instrumented.</p>
-        <p>We also know that you have probably invested in a metrics ingestion platform like Datadog or New Relic, that's the reason why we integrate natively with these platforms.</p>
       </div>
       <div class="mt-8 flex flex-row space-x-16 overflow-auto pl-2 text-center">
         <a @click="activeTab = index" v-for="(step, index) in steps" class="group w-16 focus:outline-none" :class="[activeTab === index ? 'text-sky-400 dark:text-sky-500' : 'text-slate-300 hover:text-slate-600 dark:text-slate-700 dark:hover:text-slate-400']" :key="step">
@@ -22,7 +21,7 @@
       </div>
     </div>
   </div>
-  <div class="relative overflow-hidden pb-36">
+  <div class="relative overflow-hidden pb-12">
     <textured-section>
       <component :is="steps[activeTab].content" />
     </textured-section>
@@ -34,13 +33,13 @@ import { ref } from 'vue'
 
 const steps = [
   {
-    name: 'Dashboards',
-    icon: resolveComponent('icon-chart-column'),
+    name: 'Metrics',
+    icon: resolveComponent('icon-file-lines'),
     content: resolveComponent('home-dashboards-one'),
   },
   {
-    name: 'Metrics',
-    icon: resolveComponent('icon-file-lines'),
+    name: 'Dashboards',
+    icon: resolveComponent('icon-chart-column'),
     content: resolveComponent('home-dashboards-two'),
   },
 ]
