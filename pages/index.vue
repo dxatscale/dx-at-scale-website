@@ -12,6 +12,7 @@
   <home-testimonial-enea />
   <home-orchestrator />
   <home-testimonial-vernon />
+  <home-dashboards />
   <home-pools />
 </template>
 
