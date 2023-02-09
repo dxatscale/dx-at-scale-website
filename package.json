@@ -8,6 +8,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/content": "^2.4.3",
     "autoprefixer": "^10.4.13",
     "nuxt": "^3.0.0",
     "postcss": "^8.4.21",
