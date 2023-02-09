@@ -1,7 +1,7 @@
 <template>
   <header class="sticky top-0 z-10 bg-white/60 py-3 shadow-sm backdrop-blur dark:bg-slate-900/80">
     <Popover>
-      <div class="mx-auto px-4">
+      <div class="mx-auto max-w-7xl px-4">
         <nav class="relative flex items-center justify-between sm:h-10 md:justify-end" aria-label="Global">
           <div class="flex flex-1 items-center md:absolute md:inset-y-0 md:left-0">
             <div class="flex w-full items-center justify-between md:w-auto">
