@@ -11,7 +11,5 @@ export default defineNuxtConfig({
     },
   },
   modules: ['@pinia/nuxt', '@pinia-plugin-persistedstate/nuxt', '@nuxt/content'],
-  content: {
-    // https://content.nuxtjs.org/api/configuration
-  },
+  content: {},
 })
