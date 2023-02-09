@@ -29,7 +29,11 @@ useHead({
   bodyAttrs: {
     class: 'bg-white dark:bg-slate-900',
   },
+  script: [
+    {
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-VFE8LGCZYV',
+      async: true,
+    },
+  ],
 })
-// <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
-// <link rel="icon" type="image/png" href="/assets/images/favicon.png">
 </script>
