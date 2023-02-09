@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 z-10 bg-white/60 py-3 shadow-sm backdrop-blur dark:bg-slate-900/80">
+  <header class="sticky top-0 z-10 bg-white/60 py-3 shadow-md shadow-slate-200/50 backdrop-blur dark:bg-slate-900/80 dark:shadow-slate-800/50">
     <Popover>
       <div class="mx-auto px-4">
         <nav class="relative flex items-center justify-between sm:h-10 md:justify-end" aria-label="Global">
