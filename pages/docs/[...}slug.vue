@@ -1,10 +1,12 @@
 <template>
   <main>
-    {{ docs }}
+    ---
     <ContentDoc />
   </main>
 </template>
 
 <script setup lang="ts">
-const docs = await queryContent('docs').find()
+definePageMeta({
+  layout: 'documentation',
+})
 </script>

@@ -1,160 +1,136 @@
 <template>
   <main-nav />
-  <div class="relative mx-auto flex max-w-7xl justify-center sm:px-2 lg:px-8 xl:px-12">
-    <div class="hidden lg:relative lg:block lg:flex-none">
-      <div class="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden"></div>
-      <div class="absolute top-16 bottom-0 right-0 hidden h-12 w-px bg-gradient-to-t from-slate-800 dark:block"></div>
-      <div class="absolute top-28 bottom-0 right-0 hidden w-px bg-slate-800 dark:block"></div>
-      <div class="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto overflow-x-hidden py-16 pl-0.5">
-        <nav class="w-64 pr-8 text-base lg:text-sm xl:w-72 xl:pr-16">
-          <ul role="list" class="space-y-9">
-            <li>
-              <h2 class="font-display font-medium text-slate-900 dark:text-white">Introduction</h2>
-              <ul role="list" class="mt-2 space-y-2 border-l-2 border-slate-100 dark:border-slate-800 lg:mt-4 lg:space-y-4 lg:border-slate-200">
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/">Getting started</a></li>
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/installation">Installation</a></li>
-              </ul>
-            </li>
-            <li>
-              <h2 class="font-display font-medium text-slate-900 dark:text-white">Core concepts</h2>
-              <ul role="list" class="mt-2 space-y-2 border-l-2 border-slate-100 dark:border-slate-800 lg:mt-4 lg:space-y-4 lg:border-slate-200">
-                <li class="relative"><a class="block w-full pl-3.5 font-semibold text-sky-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-sky-500" href="/docs/understanding-caching">Understanding caching</a></li>
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/predicting-user-behavior">Predicting user behavior</a></li>
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/basics-of-time-travel">Basics of time-travel</a></li>
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/introduction-to-string-theory">Introduction to string theory</a></li>
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/the-butterfly-effect">The butterfly effect</a></li>
-              </ul>
-            </li>
-            <li>
-              <h2 class="font-display font-medium text-slate-900 dark:text-white">Advanced guides</h2>
-              <ul role="list" class="mt-2 space-y-2 border-l-2 border-slate-100 dark:border-slate-800 lg:mt-4 lg:space-y-4 lg:border-slate-200">
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/writing-plugins">Writing plugins</a></li>
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/neuralink-integration">Neuralink integration</a></li>
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/temporal-paradoxes">Temporal paradoxes</a></li>
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/testing">Testing</a></li>
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/compile-time-caching">Compile-time caching</a></li>
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/predictive-data-generation">Predictive data generation</a></li>
-              </ul>
-            </li>
-            <li>
-              <h2 class="font-display font-medium text-slate-900 dark:text-white">API reference</h2>
-              <ul role="list" class="mt-2 space-y-2 border-l-2 border-slate-100 dark:border-slate-800 lg:mt-4 lg:space-y-4 lg:border-slate-200">
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/cacheadvance-predict">CacheAdvance.predict()</a></li>
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/cacheadvance-flush">CacheAdvance.flush()</a></li>
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/cacheadvance-revert">CacheAdvance.revert()</a></li>
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/cacheadvance-regret">CacheAdvance.regret()</a></li>
-              </ul>
-            </li>
-            <li>
-              <h2 class="font-display font-medium text-slate-900 dark:text-white">Contributing</h2>
-              <ul role="list" class="mt-2 space-y-2 border-l-2 border-slate-100 dark:border-slate-800 lg:mt-4 lg:space-y-4 lg:border-slate-200">
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/how-to-contribute">How to contribute</a></li>
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/architecture-guide">Architecture guide</a></li>
-                <li class="relative"><a class="block w-full pl-3.5 text-slate-500 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:hidden before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/design-principles">Design principles</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-    <div class="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pr-0 lg:pl-8 xl:px-16">
-      <article>
-        <header class="mb-9 space-y-1">
-          <p class="font-display text-sm font-medium text-sky-500">Core concepts</p>
-          <h1 class="font-display text-3xl tracking-tight text-slate-900 dark:text-white">Understanding caching</h1>
-        </header>
-        <div class="prose-headings:font-display prose prose-slate max-w-none prose-headings:scroll-mt-28 prose-headings:font-normal prose-a:font-semibold prose-a:no-underline prose-a:shadow-[inset_0_-2px_0_0_var(--tw-prose-background,#fff),inset_0_calc(-1*(var(--tw-prose-underline-size,4px)+2px))_0_0_var(--tw-prose-underline,theme(colors.sky.300))] hover:prose-a:[--tw-prose-underline-size:6px] prose-pre:rounded-xl prose-pre:bg-slate-900 prose-pre:shadow-lg prose-lead:text-slate-500 dark:prose-invert dark:text-slate-400 dark:[--tw-prose-background:theme(colors.slate.900)] dark:prose-a:text-sky-400 dark:prose-a:shadow-[inset_0_calc(-1*var(--tw-prose-underline-size,2px))_0_0_var(--tw-prose-underline,theme(colors.sky.800))] dark:hover:prose-a:[--tw-prose-underline-size:6px] dark:prose-pre:bg-slate-800/60 dark:prose-pre:shadow-none dark:prose-pre:ring-1 dark:prose-pre:ring-slate-300/10 dark:prose-hr:border-slate-800 dark:prose-lead:text-slate-400 lg:prose-headings:scroll-mt-[8.5rem]">
-          <p>Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.</p>
-          <hr />
-          <h2 id="quis-vel-iste-dicta">Quis vel iste dicta</h2>
-          <p>Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.</p>
-          <h3 id="et-pariatur-ab-quas">Et pariatur ab quas</h3>
-          <p>Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.</p>
-          <pre class="prism-code language-js"><code><span class="token comment">/** @type {import('@tailwindlabs/lorem').ipsum} */</span><span class="token plain"></span>
-<span class="token plain"></span><span class="token keyword module">export</span><span class="token plain"> </span><span class="token keyword module">default</span><span class="token plain"> </span><span class="token punctuation">{</span><span class="token plain"></span>
-<span class="token plain">  </span><span class="token literal-property property">lorem</span><span class="token operator">:</span><span class="token plain"> </span><span class="token string">'ipsum'</span><span class="token punctuation">,</span><span class="token plain"></span>
-<span class="token plain">  </span><span class="token literal-property property">dolor</span><span class="token operator">:</span><span class="token plain"> </span><span class="token punctuation">[</span><span class="token string">'sit'</span><span class="token punctuation">,</span><span class="token plain"> </span><span class="token string">'amet'</span><span class="token punctuation">,</span><span class="token plain"> </span><span class="token string">'consectetur'</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token plain"></span>
-<span class="token plain">  </span><span class="token literal-property property">adipiscing</span><span class="token operator">:</span><span class="token plain"> </span><span class="token punctuation">{</span><span class="token plain"></span>
-<span class="token plain">    </span><span class="token literal-property property">elit</span><span class="token operator">:</span><span class="token plain"> </span><span class="token boolean">true</span><span class="token punctuation">,</span><span class="token plain"></span>
-<span class="token plain">  </span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token plain"></span>
-<span class="token plain"></span><span class="token punctuation">}</span>
-</code></pre>
-          <p>Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.</p>
-          <h3 id="natus-aspernatur-iste">Natus aspernatur iste</h3>
-          <p>Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.</p>
-          <p>Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.</p>
-          <hr />
-          <h2 id="quos-porro-ut-molestiae">Quos porro ut molestiae</h2>
-          <p>Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.</p>
-          <h3 id="voluptatem-quas-possimus">Voluptatem quas possimus</h3>
-          <p>Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.</p>
-          <p>Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.</p>
-          <h3 id="id-vitae-minima">Id vitae minima</h3>
-          <p>Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.</p>
-          <p>Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.</p>
-          <hr />
-          <h2 id="vitae-laborum-maiores">Vitae laborum maiores</h2>
-          <p>Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.</p>
-          <h3 id="corporis-exercitationem">Corporis exercitationem</h3>
-          <p>Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.</p>
-          <p>Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.</p>
-          <h3 id="reprehenderit-magni">Reprehenderit magni</h3>
-          <p>Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.</p>
-          <p>Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.</p>
+  <div class="mx-auto max-w-8xl px-4 sm:px-6 md:px-8">
+    <div class="fixed inset-0 top-[3.8125rem] left-[max(0px,calc(50%-45rem))] right-auto hidden w-[19.5rem] overflow-y-auto px-8 pb-10 lg:block">
+      <nav id="nav" class="relative lg:text-sm lg:leading-6">
+        <div class="pointer-events-none sticky top-0 -ml-0.5">
+          <div class="h-10 bg-white dark:bg-slate-900"></div>
+          <div class="pointer-events-auto relative bg-white dark:bg-slate-900">
+            <button type="button" class="hidden w-full items-center rounded-md py-1.5 pl-2 pr-3 text-sm leading-6 text-slate-400 shadow-sm ring-1 ring-slate-900/10 hover:ring-slate-300 dark:bg-slate-800 dark:highlight-white/5 dark:hover:bg-slate-700 lg:flex">
+              <svg width="24" height="24" fill="none" aria-hidden="true" class="mr-3 flex-none">
+                <path d="m19 19-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></circle>
+              </svg>
+              Quick search...
+              <span class="ml-auto flex-none pl-3 text-xs font-semibold">⌘K</span>
+            </button>
+          </div>
+          <div class="h-8 bg-gradient-to-b from-white dark:from-slate-900"></div>
         </div>
-      </article>
-      <dl class="mt-12 flex border-t border-slate-200 pt-6 dark:border-slate-800">
-        <div>
-          <dt class="font-display text-sm font-medium text-slate-900 dark:text-white">Previous</dt>
-          <dd class="mt-1">
-            <a class="text-base font-semibold text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300" href="/docs/installation">
-              <span aria-hidden="true">←</span>
-              Installation
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/tailwindlabs" class="group mb-4 flex items-center font-medium text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300 lg:text-sm lg:leading-6">
+              <div class="mr-4 rounded-md shadow-sm ring-1 ring-slate-900/5 group-hover:shadow group-hover:shadow-pink-200 group-hover:ring-slate-900/10 dark:bg-slate-800 dark:shadow-none dark:ring-0 dark:highlight-white/5 dark:group-hover:bg-pink-500 dark:group-hover:shadow-none dark:group-hover:highlight-white/10">
+                <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19 12a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" class="fill-pink-400 group-hover:fill-pink-500 dark:fill-slate-600 dark:group-hover:fill-pink-300"></path>
+                  <path d="M11.082 9.107a.685.685 0 0 0-.72-.01.757.757 0 0 0-.362.653v4.5c0 .27.138.52.362.653.224.133.5.13.72-.01l3.571-2.25A.758.758 0 0 0 15 12a.758.758 0 0 0-.347-.643l-3.571-2.25Z" class="fill-pink-50 group-hover:fill-pink-100 dark:fill-slate-400 dark:group-hover:fill-white"></path>
+                </svg>
+              </div>
+              Screencasts
             </a>
-          </dd>
-        </div>
-        <div class="ml-auto text-right">
-          <dt class="font-display text-sm font-medium text-slate-900 dark:text-white">Next</dt>
-          <dd class="mt-1">
-            <a class="text-base font-semibold text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300" href="/docs/predicting-user-behavior">
-              Predicting user behavior
-              <!-- -->
-              <span aria-hidden="true">→</span>
+          </li>
+          <li>
+            <a href="https://github.com/tailwindlabs/tailwindcss/discussions" class="group mb-4 flex items-center font-medium text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300 lg:text-sm lg:leading-6">
+              <div class="mr-4 rounded-md shadow-sm ring-1 ring-slate-900/5 group-hover:shadow group-hover:shadow-violet-200 group-hover:ring-slate-900/10 dark:bg-slate-800 dark:shadow-none dark:ring-0 dark:highlight-white/5 dark:group-hover:bg-violet-500 dark:group-hover:shadow-none dark:group-hover:highlight-white/10">
+                <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M11 5a6 6 0 0 0-4.687 9.746c.215.27.315.62.231.954l-.514 2.058a1 1 0 0 0 1.485 1.1l2.848-1.71c.174-.104.374-.15.576-.148H13a6 6 0 0 0 0-12h-2Z" class="fill-violet-400 group-hover:fill-violet-500 dark:fill-slate-600 dark:group-hover:fill-violet-300"></path>
+                  <circle cx="12" cy="11" r="1" class="fill-white dark:fill-slate-400 dark:group-hover:fill-white"></circle>
+                  <circle cx="9" cy="11" r="1" class="fill-violet-200 dark:fill-slate-400 dark:group-hover:fill-white"></circle>
+                  <circle cx="15" cy="11" r="1" class="fill-violet-200 dark:fill-slate-400 dark:group-hover:fill-white"></circle>
+                </svg>
+              </div>
+              Community
             </a>
-          </dd>
-        </div>
-      </dl>
-    </div>
-    <div class="hidden xl:sticky xl:top-[4.5rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.5rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pr-6">
-      <nav aria-labelledby="on-this-page-title" class="w-56">
-        <h2 id="on-this-page-title" class="font-display text-sm font-medium text-slate-900 dark:text-white">On this page</h2>
-        <ol role="list" class="mt-4 space-y-3 text-sm">
-          <li>
-            <h3><a class="text-sky-500" href="/docs/understanding-caching#quis-vel-iste-dicta">Quis vel iste dicta</a></h3>
-            <ol role="list" class="mt-2 space-y-3 pl-5 text-slate-500 dark:text-slate-400">
-              <li><a class="hover:text-slate-600 dark:hover:text-slate-300" href="/docs/understanding-caching#et-pariatur-ab-quas">Et pariatur ab quas</a></li>
-              <li><a class="hover:text-slate-600 dark:hover:text-slate-300" href="/docs/understanding-caching#natus-aspernatur-iste">Natus aspernatur iste</a></li>
-            </ol>
           </li>
-          <li>
-            <h3><a class="font-normal text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300" href="/docs/understanding-caching#quos-porro-ut-molestiae">Quos porro ut molestiae</a></h3>
-            <ol role="list" class="mt-2 space-y-3 pl-5 text-slate-500 dark:text-slate-400">
-              <li><a class="hover:text-slate-600 dark:hover:text-slate-300" href="/docs/understanding-caching#voluptatem-quas-possimus">Voluptatem quas possimus</a></li>
-              <li><a class="hover:text-slate-600 dark:hover:text-slate-300" href="/docs/understanding-caching#id-vitae-minima">Id vitae minima</a></li>
-            </ol>
+          <li class="mt-12 lg:mt-8">
+            <h5 class="mb-8 font-semibold text-slate-900 dark:text-slate-200 lg:mb-3">Getting Started</h5>
+            <ul class="space-y-6 border-l border-slate-100 dark:border-slate-800 lg:space-y-2">
+              <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/installation">Installation</a></li>
+              <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/editor-setup">Editor Setup</a></li>
+              <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/using-with-preprocessors">Using with Preprocessors</a></li>
+              <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/optimizing-for-production">Optimizing for Production</a></li>
+              <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/browser-support">Browser Support</a></li>
+              <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/upgrade-guide">Upgrade Guide</a></li>
+            </ul>
           </li>
-          <li>
-            <h3><a class="font-normal text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300" href="/docs/understanding-caching#vitae-laborum-maiores">Vitae laborum maiores</a></h3>
-            <ol role="list" class="mt-2 space-y-3 pl-5 text-slate-500 dark:text-slate-400">
-              <li><a class="hover:text-slate-600 dark:hover:text-slate-300" href="/docs/understanding-caching#corporis-exercitationem">Corporis exercitationem</a></li>
-              <li><a class="hover:text-slate-600 dark:hover:text-slate-300" href="/docs/understanding-caching#reprehenderit-magni">Reprehenderit magni</a></li>
-            </ol>
+          <li class="mt-12 lg:mt-8">
+            <h5 class="mb-8 font-semibold text-slate-900 dark:text-slate-200 lg:mb-3">Core Concepts</h5>
+            <ul class="space-y-6 border-l border-slate-100 dark:border-slate-800 lg:space-y-2">
+              <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/utility-first">Utility-First Fundamentals</a></li>
+              <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/hover-focus-and-other-states">Hover, Focus, and Other States</a></li>
+              <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/responsive-design">Responsive Design</a></li>
+              <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/dark-mode">Dark Mode</a></li>
+              <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/reusing-styles">Reusing Styles</a></li>
+              <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/adding-custom-styles">Adding Custom Styles</a></li>
+              <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/functions-and-directives">Functions &amp; Directives</a></li>
+            </ul>
           </li>
-        </ol>
+        </ul>
       </nav>
     </div>
+
+    <div class="lg:pl-[19.5rem]">
+      <div class="mx-auto max-w-3xl pt-10 xl:ml-0 xl:mr-[15.5rem] xl:max-w-none xl:pr-16">
+        <header id="header" class="relative z-20">
+          <div>
+            <p class="mb-2 text-sm font-semibold leading-6 text-sky-500 dark:text-sky-400">Interactivity</p>
+            <div class="flex items-center"><h1 class="inline-block text-2xl font-extrabold tracking-tight text-slate-900 dark:text-slate-200 sm:text-3xl">Will Change</h1></div>
+          </div>
+          <p class="mt-2 text-lg text-slate-700 dark:text-slate-400">Utilities for optimizing upcoming animations of elements that are expected to change.</p>
+        </header>
+
+        <div id="content-wrapper" class="dark:prose-dark prose prose-slate relative z-20 mt-12">
+          <!-- Content -->
+          Content
+        </div>
+        <footer class="mt-12 text-sm leading-6">
+          <div class="mb-10 flex items-center font-semibold text-slate-700 dark:text-slate-200">
+            <!-- Previous article -->
+            <a class="group flex items-center hover:text-slate-900 dark:hover:text-white" href="/docs/user-select">
+              <svg viewBox="0 0 3 6" class="mr-3 h-1.5 w-auto overflow-visible text-slate-400 group-hover:text-slate-600 dark:group-hover:text-slate-300"><path d="M3 0L0 3L3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              User Select
+            </a>
+            <!-- Next article -->
+            <a class="group ml-auto flex items-center hover:text-slate-900 dark:hover:text-white" href="/docs/fill">
+              Fill
+              <svg viewBox="0 0 3 6" class="ml-3 h-1.5 w-auto overflow-visible text-slate-400 group-hover:text-slate-600 dark:group-hover:text-slate-300"><path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </a>
+          </div>
+          <!-- Footer -->
+          <div class="justify-between border-t border-slate-200 pt-10 pb-28 text-slate-500 dark:border-slate-200/5 sm:flex">
+            <div class="mb-6 sm:mb-0 sm:flex">
+              <p>Copyright © 2023 Tailwind Labs Inc.</p>
+              <p class="sm:ml-4 sm:border-l sm:border-slate-200 sm:pl-4 dark:sm:border-slate-200/5"><a class="hover:text-slate-900 dark:hover:text-slate-400" href="/brand">Trademark Policy</a></p>
+            </div>
+            <a class="hover:text-slate-900 dark:hover:text-slate-400" href="https://github.com/tailwindlabs/tailwindcss.com/edit/master/src/pages/docs/will-change.mdx">Edit this page on GitHub</a>
+          </div>
+        </footer>
+
+        <!-- Aside -->
+        <div class="fixed top-[3.8125rem] bottom-0 right-[max(0px,calc(50%-45rem))] hidden w-[19.5rem] overflow-y-auto py-10 xl:block">
+          <div class="px-8">
+            <h5 class="mb-4 text-sm font-semibold leading-6 text-slate-900 dark:text-slate-100">On this page</h5>
+            <ul class="text-sm leading-6 text-slate-700">
+              <li><a href="#class-reference" class="block py-1 font-medium font-medium text-sky-500 dark:text-sky-400">Quick reference</a></li>
+              <li><a href="#basic-usage" class="block py-1 font-medium hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300">Basic usage</a></li>
+
+              <li><a href="#applying-conditionally" class="block py-1 font-medium hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300">Applying conditionally</a></li>
+              <li class="ml-4">
+                <a href="#hover-focus-and-other-states" class="group flex items-start py-1 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300">
+                  <svg width="3" height="24" viewBox="0 -9 3 24" class="mr-2 overflow-visible text-slate-400 group-hover:text-slate-600 dark:text-slate-600 dark:group-hover:text-slate-500"><path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg>
+                  Hover, focus, and other states
+                </a>
+              </li>
+              <li class="ml-4">
+                <a href="#breakpoints-and-media-queries" class="group flex items-start py-1 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300">
+                  <svg width="3" height="24" viewBox="0 -9 3 24" class="mr-2 overflow-visible text-slate-400 group-hover:text-slate-600 dark:text-slate-600 dark:group-hover:text-slate-500"><path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg>
+                  Breakpoints and media queries
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <main class="doc">
-    <slot />
-  </main>
 </template>

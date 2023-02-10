@@ -1,13 +1,13 @@
 <template>
   <header class="sticky top-0 z-10 bg-white/60 py-3 shadow-md shadow-slate-200/50 backdrop-blur dark:bg-slate-900/80 dark:shadow-slate-800/50">
     <Popover>
-      <div class="mx-auto max-w-7xl px-4">
+      <div class="mx-auto max-w-8xl px-4">
         <nav class="relative flex items-center justify-between sm:h-10 md:justify-end" aria-label="Global">
           <div class="flex flex-1 items-center md:absolute md:inset-y-0 md:left-0">
-            <div class="flex w-full items-center justify-between md:w-auto">
+            <div class="flex w-full items-center justify-between">
               <nuxt-link href="/">
                 <span class="sr-only">DX@Scale</span>
-                <logo-dxatscale class="h-8" />
+                <logo-dxatscale class="w-16" />
               </nuxt-link>
               <div class="-mr-2 flex items-center md:hidden">
                 <PopoverButton class="inline-flex items-center justify-center rounded-md bg-slate-50 p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500 dark:bg-slate-900 dark:text-slate-600 dark:hover:bg-slate-900/70 dark:hover:text-slate-400">
@@ -18,7 +18,7 @@
             </div>
           </div>
           <div class="hidden md:flex md:space-x-10">
-            <nuxt-link v-for="item in navigation" :key="item.name" :href="item.href" target="_blank" class="text-sm font-medium text-slate-700 hover:text-slate-900 dark:text-slate-400 hover:dark:text-slate-200">{{ item.name }}</nuxt-link>
+            <nuxt-link v-for="item in navigation" :key="item.name" :href="item.href" class="text-sm font-medium text-slate-700 hover:text-slate-900 dark:text-slate-400 hover:dark:text-slate-200">{{ item.name }}</nuxt-link>
           </div>
           <div class="hidden md:flex md:items-center">
             <div class="ml-6 mr-3 hidden h-5 w-px bg-slate-900/10 md:block"></div>
@@ -69,8 +69,8 @@ import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
-  { name: 'Documentation', href: 'https://docs.dxatscale.io/' },
-  { name: 'Getting Started', href: 'https://docs.dxatscale.io/implementing-your-ci-cd/prerequisites' },
+  { name: 'Documentation', href: '/docs/hello' },
+  { name: 'Getting Started', href: '/docs/hello2' },
   { name: 'Release Logs', href: 'https://github.com/dxatscale/dxatscale/releases' },
   { name: 'Team', href: 'https://docs.dxatscale.io/about-us/meet-our-team' },
 ]
