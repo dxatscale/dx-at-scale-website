@@ -45,7 +45,7 @@
           <li class="mt-12 lg:mt-8">
             <h5 class="mb-8 font-semibold text-slate-900 dark:text-slate-200 lg:mb-3">Getting Started</h5>
             <ul class="space-y-6 border-l border-slate-100 dark:border-slate-800 lg:space-y-2">
-              <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/installation">Installation</a></li>
+              <li><a class="-ml-px block border-l border-current pl-4 font-semibold text-sky-500 dark:text-sky-400" href="/docs/editor-setup">Editor Setup</a></li>
               <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/editor-setup">Editor Setup</a></li>
               <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/using-with-preprocessors">Using with Preprocessors</a></li>
               <li><a class="-ml-px block border-l border-transparent pl-4 text-slate-700 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-300" href="/docs/optimizing-for-production">Optimizing for Production</a></li>
@@ -81,7 +81,7 @@
 
         <div id="content-wrapper" class="dark:prose-dark prose prose-slate relative z-20 mt-12">
           <!-- Content -->
-          Content
+          <slot />
         </div>
         <footer class="mt-12 text-sm leading-6">
           <div class="mb-10 flex items-center font-semibold text-slate-700 dark:text-slate-200">
@@ -99,10 +99,10 @@
           <!-- Footer -->
           <div class="justify-between border-t border-slate-200 pt-10 pb-28 text-slate-500 dark:border-slate-200/5 sm:flex">
             <div class="mb-6 sm:mb-0 sm:flex">
-              <p>Copyright © 2023 Tailwind Labs Inc.</p>
-              <p class="sm:ml-4 sm:border-l sm:border-slate-200 sm:pl-4 dark:sm:border-slate-200/5"><a class="hover:text-slate-900 dark:hover:text-slate-400" href="/brand">Trademark Policy</a></p>
+              <p>Copyright © 2023 DX@Scale</p>
+              <p class="sm:ml-4 sm:border-l sm:border-slate-200 sm:pl-4 dark:sm:border-slate-200/5"><a class="hover:text-slate-900 dark:hover:text-slate-400" href="#">Brand</a></p>
             </div>
-            <a class="hover:text-slate-900 dark:hover:text-slate-400" href="https://github.com/tailwindlabs/tailwindcss.com/edit/master/src/pages/docs/will-change.mdx">Edit this page on GitHub</a>
+            <a class="hover:text-slate-900 dark:hover:text-slate-400" href="#">Edit this page on GitHub</a>
           </div>
         </footer>
 
@@ -111,10 +111,10 @@
           <div class="px-8">
             <h5 class="mb-4 text-sm font-semibold leading-6 text-slate-900 dark:text-slate-100">On this page</h5>
             <ul class="text-sm leading-6 text-slate-700">
-              <li><a href="#class-reference" class="block py-1 font-medium font-medium text-sky-500 dark:text-sky-400">Quick reference</a></li>
-              <li><a href="#basic-usage" class="block py-1 font-medium hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300">Basic usage</a></li>
+              <li><a href="#" class="block py-1 font-medium text-sky-500 dark:text-sky-400">Quick reference</a></li>
+              <li><a href="#" class="block py-1 font-medium hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300">Basic usage</a></li>
 
-              <li><a href="#applying-conditionally" class="block py-1 font-medium hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300">Applying conditionally</a></li>
+              <li><a href="#" class="block py-1 font-medium hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300">Applying conditionally</a></li>
               <li class="ml-4">
                 <a href="#hover-focus-and-other-states" class="group flex items-start py-1 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300">
                   <svg width="3" height="24" viewBox="0 -9 3 24" class="mr-2 overflow-visible text-slate-400 group-hover:text-slate-600 dark:text-slate-600 dark:group-hover:text-slate-500"><path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg>

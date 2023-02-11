@@ -22,6 +22,7 @@ module.exports = {
       maxWidth: {
         '8xl': '88rem',
       },
+
     },
   },
   plugins: [

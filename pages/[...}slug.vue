@@ -1,6 +1,6 @@
 <template>
   <main>
-    {{ docs }}
+    Test
     <ContentDoc />
   </main>
 </template>
