@@ -18,7 +18,7 @@
             </div>
           </div>
           <div class="hidden md:flex md:space-x-10">
-            <nuxt-link v-for="item in navigation" :key="item.name" :href="item.href" class="text-sm font-medium text-slate-700 hover:text-slate-900 dark:text-slate-400 hover:dark:text-slate-200">{{ item.name }}</nuxt-link>
+            <nuxt-link v-for="item in navigation" :key="item.name" :href="item.href" class="text-sm font-medium text-slate-700 hover:text-slate-900 dark:text-slate-400 hover:dark:text-slate-200" :target="item.target">{{ item.name }}</nuxt-link>
           </div>
           <div class="hidden md:flex md:items-center">
             <div class="ml-6 mr-3 hidden h-5 w-px bg-slate-900/10 md:block"></div>
@@ -69,9 +69,9 @@ import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
-  { name: 'Documentation', href: '/docs/hello' },
-  { name: 'Getting Started', href: '/docs/hello2' },
-  { name: 'Release Logs', href: 'https://github.com/dxatscale/dxatscale/releases' },
-  { name: 'Team', href: 'https://docs.dxatscale.io/about-us/meet-our-team' },
+  { name: 'Documentation', href: 'https://docs.dxatscale.io', target: '_blank' },
+  { name: 'Getting Started', href: '/docs/hello2', target: '' },
+  { name: 'Release Logs', href: 'https://github.com/dxatscale/dxatscale/releases', target: '' },
+  { name: 'Team', href: 'https://docs.dxatscale.io/about-us/meet-our-team', target: '' },
 ]
 </script>
