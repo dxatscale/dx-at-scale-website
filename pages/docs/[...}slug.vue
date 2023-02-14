@@ -39,9 +39,3 @@ const [prev, next] = data.value?.surround
     </div>
   </div>
 </template>
-
-<style>
-code-group {
-  @apply !bg-slate-500;
-}
-</style>

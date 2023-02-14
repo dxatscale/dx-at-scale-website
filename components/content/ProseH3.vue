@@ -1,5 +1,5 @@
 <template>
-  <h3 :id="id">
+  <h3 :id="id" class="scroll-mt-24">
     <slot />
   </h3>
 </template>
