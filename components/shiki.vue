@@ -1,7 +1,3 @@
-<template>
-  <div v-html="hlCode"></div>
-</template>
-
 <script lang="ts" setup>
 // import { statSync } from 'fs'
 import { ref, Ref } from 'vue'
@@ -44,6 +40,10 @@ const hlCode = await useShiki(ref(formattedCode), {
   lineOptions: lineOptions,
 })
 </script>
+
+<template>
+  <div v-html="hlCode"></div>
+</template>
 
 <style>
 .shiki .line {

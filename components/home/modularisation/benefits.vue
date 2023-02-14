@@ -1,3 +1,19 @@
+<script setup lang="ts">
+import { StarIcon, Cog6ToothIcon } from '@heroicons/vue/24/outline'
+const features = [
+  {
+    name: 'Increased Efficiency',
+    description: 'By breaking up a your Salesforce Org into smaller, independent modules, developers can work on specific project parts simultaneously, speeding up the overall development process.',
+    icon: StarIcon,
+  },
+  {
+    name: 'Better Maintainability',
+    description: 'Because your modules are smaller and independent it is easier to identify and fix bugs or issues that may arise. Additionally, it is easier to update or refactor individual parts without affecting the entire codebase.',
+    icon: Cog6ToothIcon,
+  },
+]
+</script>
+
 <template>
   <div class="mx-auto mt-12 max-w-7xl md:grid md:grid-cols-12 lg:min-h-[580px] lg:gap-8">
     <div class="col-span-12 px-4 py-16 lg:col-span-5">
@@ -20,19 +36,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import { StarIcon, Cog6ToothIcon } from '@heroicons/vue/24/outline'
-const features = [
-  {
-    name: 'Increased Efficiency',
-    description: 'By breaking up a your Salesforce Org into smaller, independent modules, developers can work on specific project parts simultaneously, speeding up the overall development process.',
-    icon: StarIcon,
-  },
-  {
-    name: 'Better Maintainability',
-    description: 'Because your modules are smaller and independent it is easier to identify and fix bugs or issues that may arise. Additionally, it is easier to update or refactor individual parts without affecting the entire codebase.',
-    icon: Cog6ToothIcon,
-  },
-]
-</script>

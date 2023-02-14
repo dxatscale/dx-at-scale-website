@@ -1,20 +1,4 @@
 <template>
-  <!--
-                  {
-            "path": "packages/sales/products-post",
-            "package": "product-catalogue-records-post",
-            "versionName": "product-catalogue-records-post-1.0",
-            "versionNumber": "1.5.12.0",
-            "type": "data",
-            "assignPermSetsPreDeployment": [
-                "CPQUser",
-                "PriceMaintainerV1",
-                "SalesUserV1"
-            ],
-            "buildCollection": [
-                "product-catalogue-records-pre"
-            ]
-        }-->
   <vscode code="" lang="json" :explorer-visible="false">
     <template v-slot:code>
       <pre class="shiki"><code><span class="line"><span style="color: var(--shiki-token-punctuation)">...</span></span>

@@ -1,3 +1,26 @@
+<script setup lang="ts">
+import { ref } from 'vue'
+
+const steps = [
+  {
+    name: 'Modularise',
+    icon: resolveComponent('icon-modularise'),
+    content: resolveComponent('home-steps-one'),
+  },
+  {
+    name: 'Build',
+    icon: resolveComponent('icon-build'),
+    content: resolveComponent('home-steps-two'),
+  },
+  {
+    name: 'Launch',
+    icon: resolveComponent('icon-rocket-launch'),
+    content: resolveComponent('home-steps-three'),
+  },
+]
+const activeTab = ref(0)
+</script>
+
 <template>
   <section class="mt-36" id="steps">
     <div class="relative mx-auto max-w-7xl px-4">
@@ -29,26 +52,3 @@
     </div>
   </section>
 </template>
-
-<script setup>
-import { ref } from 'vue'
-
-const steps = [
-  {
-    name: 'Modularise',
-    icon: resolveComponent('icon-modularise'),
-    content: resolveComponent('home-steps-one'),
-  },
-  {
-    name: 'Build',
-    icon: resolveComponent('icon-build'),
-    content: resolveComponent('home-steps-two'),
-  },
-  {
-    name: 'Launch',
-    icon: resolveComponent('icon-rocket-launch'),
-    content: resolveComponent('home-steps-three'),
-  },
-]
-const activeTab = ref(0)
-</script>

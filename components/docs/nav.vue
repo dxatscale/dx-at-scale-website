@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
+</script>
+
 <template>
   <div class="fixed inset-0 top-[3.8125rem] left-[max(0px,calc(50%-45rem))] right-auto hidden w-[19.5rem] overflow-y-auto px-8 pb-10 lg:block">
     <nav id="nav" class="relative lg:text-sm lg:leading-6">
@@ -63,7 +67,3 @@
     </nav>
   </div>
 </template>
-
-<script setup lang="ts">
-const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
-</script>

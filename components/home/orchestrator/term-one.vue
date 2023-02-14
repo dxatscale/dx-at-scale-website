@@ -1,3 +1,23 @@
+<script setup lang="ts">
+import { VTermynal, VtInput, VtProgress, VtText, VtSpinner } from '@lehoczky/vue-termynal'
+const container = ref<HTMLDivElement | null>(null)
+
+const scrollToNewLine = (event: Event) => {
+  let line = event as HTMLElement | unknown
+
+  if (line instanceof HTMLElement && container.value) {
+    if (line.offsetTop + line.offsetHeight > container.value?.offsetHeight) {
+      container.value?.scrollTo({
+        top: line.offsetTop + line.offsetHeight - container.value?.offsetHeight,
+        behavior: 'smooth',
+      })
+    }
+  } else {
+    return
+  }
+}
+</script>
+
 <template>
   <div class="relative">
     <div class="relative overflow-hidden bg-slate-50 pt-2 shadow-xl ring-1 ring-inset ring-slate-500/20 backdrop-blur dark:bg-slate-800 dark:bg-slate-900/70 dark:ring-white/10 sm:rounded-xl lg:grid lg:grid-cols-2 lg:grid-rows-1">
@@ -166,26 +186,6 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import { VTermynal, VtInput, VtProgress, VtText, VtSpinner } from '@lehoczky/vue-termynal'
-const container = ref<HTMLDivElement | null>(null)
-
-const scrollToNewLine = (event: Event) => {
-  let line = event as HTMLElement | unknown
-
-  if (line instanceof HTMLElement && container.value) {
-    if (line.offsetTop + line.offsetHeight > container.value?.offsetHeight) {
-      container.value?.scrollTo({
-        top: line.offsetTop + line.offsetHeight - container.value?.offsetHeight,
-        behavior: 'smooth',
-      })
-    }
-  } else {
-    return
-  }
-}
-</script>
 
 <style>
 .line-container {

@@ -1,3 +1,19 @@
+<script setup lang="ts">
+const steps = [
+  {
+    name: 'Before',
+    icon: resolveComponent('icon-happy-soup'),
+    content: resolveComponent('home-modularisation-one'),
+  },
+  {
+    name: 'After',
+    icon: resolveComponent('icon-package'),
+    content: resolveComponent('home-modularisation-two'),
+  },
+]
+const activeTab = ref(0)
+</script>
+
 <template>
   <section id="modularisation" class="mt-36">
     <div class="relative mx-auto max-w-7xl px-4">
@@ -29,19 +45,3 @@
     </div>
   </section>
 </template>
-
-<script setup>
-const steps = [
-  {
-    name: 'Before',
-    icon: resolveComponent('icon-happy-soup'),
-    content: resolveComponent('home-modularisation-one'),
-  },
-  {
-    name: 'After',
-    icon: resolveComponent('icon-package'),
-    content: resolveComponent('home-modularisation-two'),
-  },
-]
-const activeTab = ref(0)
-</script>

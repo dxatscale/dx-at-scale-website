@@ -1,3 +1,9 @@
+<script setup>
+definePageMeta({
+  layout: 'homepage',
+})
+</script>
+
 <template>
   <home-hero />
   <home-community-users />
@@ -15,9 +21,3 @@
   <home-dashboards />
   <home-pools />
 </template>
-
-<script setup>
-definePageMeta({
-  layout: 'homepage',
-})
-</script>

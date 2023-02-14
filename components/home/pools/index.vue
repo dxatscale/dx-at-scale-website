@@ -1,3 +1,21 @@
+<script setup lang="ts">
+import { ref } from 'vue'
+
+const steps = [
+  {
+    name: 'For the developers',
+    icon: resolveComponent('icon-developer'),
+    content: resolveComponent('home-pools-one'),
+  },
+  {
+    name: 'For your CI/CD',
+    icon: resolveComponent('icon-infinity'),
+    content: resolveComponent('home-pools-two'),
+  },
+]
+const activeTab = ref(0)
+</script>
+
 <template>
   <div class="relative mx-auto mt-36 max-w-7xl px-4">
     <div class="max-w-3xl">
@@ -33,21 +51,3 @@
     </textured-section>
   </div>
 </template>
-
-<script setup>
-import { ref } from 'vue'
-
-const steps = [
-  {
-    name: 'For the developers',
-    icon: resolveComponent('icon-developer'),
-    content: resolveComponent('home-pools-one'),
-  },
-  {
-    name: 'For your CI/CD',
-    icon: resolveComponent('icon-infinity'),
-    content: resolveComponent('home-pools-two'),
-  },
-]
-const activeTab = ref(0)
-</script>

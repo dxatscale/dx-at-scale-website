@@ -1,1 +1,0 @@
-<template>Blank Component</template>

@@ -1,3 +1,40 @@
+<script setup>
+import { useGlobalStore } from '@/store/index'
+import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
+
+const theme = useGlobalStore()
+
+const selectedTheme = theme.mode
+
+const changeTheme = (value) => {
+  theme.changeTheme(value)
+  setTheme()
+}
+
+const getTheme = () => {
+  return theme.mode.charAt(0).toUpperCase() + theme.mode.slice(1)
+}
+
+const selectTheme = (event) => {
+  theme.changeTheme(event.target.value)
+  setTheme()
+}
+
+onMounted(() => {
+  setTheme()
+  const useDark = window.matchMedia('(prefers-color-scheme: dark)')
+  useDark.addEventListener('change', setTheme)
+})
+
+function setTheme() {
+  if (theme.mode === 'dark' || (theme.mode === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark')
+  } else {
+    document.documentElement.classList.remove('dark')
+  }
+}
+</script>
+
 <template>
   <Popover class="relative hidden md:block" v-slot="{ open }">
     <PopoverButton>
@@ -68,40 +105,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import { useGlobalStore } from '@/store/index'
-import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
-
-const theme = useGlobalStore()
-
-const selectedTheme = theme.mode
-
-const changeTheme = (value) => {
-  theme.changeTheme(value)
-  setTheme()
-}
-
-const getTheme = () => {
-  return theme.mode.charAt(0).toUpperCase() + theme.mode.slice(1)
-}
-
-const selectTheme = (event) => {
-  theme.changeTheme(event.target.value)
-  setTheme()
-}
-
-onMounted(() => {
-  setTheme()
-  const useDark = window.matchMedia('(prefers-color-scheme: dark)')
-  useDark.addEventListener('change', setTheme)
-})
-
-function setTheme() {
-  if (theme.mode === 'dark' || (theme.mode === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-    document.documentElement.classList.add('dark')
-  } else {
-    document.documentElement.classList.remove('dark')
-  }
-}
-</script>
