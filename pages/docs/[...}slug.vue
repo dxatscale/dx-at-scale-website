@@ -9,6 +9,7 @@ const { data } = await useAsyncData(`${path}`, async () => {
     surround: await surround,
   }
 })
+
 const [prev, next] = data.value?.surround
 const section = data.value?.article.section
 const title = data.value?.article.title
