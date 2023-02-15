@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
+console.log({ navigation })
 </script>
 
 <template>
