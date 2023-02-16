@@ -3,7 +3,7 @@ const title = 'DX@Scale'
 const description = 'Used on more than 150 Salesforce orgs worldwide, DX@Scale helps you unlock the full potential of your Salesforce Org with modularisation techniques and a declarative orchestrator. Streamline your Salesforce application lifecycle by enhancing the experience of your developers and admins.'
 const shortDescription = 'Modular Salesforce Development powered by open source tools'
 const baseUrl = 'https://dxatscale.io'
-const imageUrl = '/social-image.webp'
+const imageUrl = 'https://dxatscale.io/social-image.webp'
 
 definePageMeta({
   layout: 'homepage',
