@@ -32,9 +32,10 @@ const subTitle = data.value?.article['sub-title']
           <p class="mt-2 text-lg text-slate-700 dark:text-slate-400">{{ subTitle }}</p>
         </header>
 
-        <div id="content-wrapper" class="dark:prose-dark prose prose-slate relative mt-12">
+        <div id="content-wrapper" class="prose prose-slate relative mt-12 dark:prose-invert">
           <ContentDoc />
         </div>
+
         <docs-footer :prev="prev" :next="next" />
 
         <!-- Aside -->
