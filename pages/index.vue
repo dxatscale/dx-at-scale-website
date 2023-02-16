@@ -22,7 +22,7 @@ useHead({
     { hid: 'twitterTitle', name: 'twitter:title', content: shortDescription },
     { hid: 'twitterDescription', name: 'twitter:description', content: description },
     { hid: 'twitterImage', name: 'twitter:image', content: imageUrl },
-    { hid: 'twitterCard', name: 'twitter:card', content: 'summary' },
+    { hid: 'twitterCard', name: 'twitter:card', content: 'summary_large_image' },
     { hid: 'twitterUrl', name: 'twitter:creator', content: '@dxatscale' },
     { hid: 'twitterSite', name: 'twitter:site', content: '@dxatscale' },
     { hid: 'twitterType', name: 'twitter:type', content: 'website' },
