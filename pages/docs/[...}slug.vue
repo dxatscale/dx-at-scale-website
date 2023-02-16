@@ -39,7 +39,7 @@ const subTitle = data.value?.article['sub-title']
 
         <!-- Aside -->
         <div class="fixed top-[3.8125rem] bottom-0 right-[max(0px,calc(50%-45rem))] hidden w-[19.5rem] overflow-y-auto py-10 xl:block">
-          <docs-aside :links="data.article.body.toc.links" />
+          <docs-aside :links="data?.article.body.toc.links" />
         </div>
       </div>
     </div>

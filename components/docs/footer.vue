@@ -21,10 +21,10 @@ defineProps(['prev', 'next'])
     <!-- Footer -->
     <div class="justify-between border-t border-slate-200 pt-10 pb-28 text-slate-500 dark:border-slate-200/5 sm:flex">
       <div class="mb-6 sm:mb-0 sm:flex">
-        <p>Copyright © 2023 DX@Scale</p>
-        <p class="sm:ml-4 sm:border-l sm:border-slate-200 sm:pl-4 dark:sm:border-slate-200/5"><a class="hover:text-slate-900 dark:hover:text-slate-400" href="#">Brand</a></p>
+        <p>Copyright © 2019-2023 DX@Scale</p>
+        <p class="hidden sm:ml-4 sm:border-l sm:border-slate-200 sm:pl-4 dark:sm:border-slate-200/5"><a class="hover:text-slate-900 dark:hover:text-slate-400" href="#">Brand</a></p>
       </div>
-      <a class="hover:text-slate-900 dark:hover:text-slate-400" href="#">Edit this page on GitHub</a>
+      <a class="hidden hover:text-slate-900 dark:hover:text-slate-400" href="#">Edit this page on GitHub</a>
     </div>
   </footer>
 </template>
