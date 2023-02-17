@@ -26,6 +26,7 @@
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
+    "@vueuse/core": "^9.12.0",
     "mini-svg-data-uri": "^1.4.4",
     "shiki-es": "^0.2.0",
     "vue-use-active-scroll": "^0.9.9"

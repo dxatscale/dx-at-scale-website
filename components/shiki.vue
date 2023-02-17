@@ -58,7 +58,7 @@ const hlCode = await useShiki(ref(formattedCode), {
   --shiki-token-constant: var(--color-slate-800);
   --shiki-color-text: var(--color-slate-600);
   --shiki-token-string-expression: var(--color-rose-700);
-  --shiki-token-string: #ff0000;
+  --shiki-token-string: #00ff00;
   --line-numbers: var(--color-slate-300);
   /*
   --shiki-token-parameter: #aa0000;
@@ -76,7 +76,7 @@ html.dark {
   --shiki-color-text: var(--color-slate-300);
   --shiki-token-string-expression: var(--color-rose-300);
   --line-numbers: var(--color-slate-600);
-  --shiki-token-string: #ff0000;
+  --shiki-token-string: #00ff00;
 }
 .shiki .line {
   @apply inline-block;
