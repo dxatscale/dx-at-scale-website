@@ -6,6 +6,16 @@ sub-title: What is DX@Scale and what you can do with it
 
 **DX@Scale** is a collection of practices, open-source tools, frameworks, and practitioners built on our experience in delivering large and complex Salesforce programs. Utilising our **'curated'** practices, you can build a modular Salesforce Org that is reliable and easy to maintain.
 
+## Developer Experience with DX@Scale
+
+Before we dive into the DX@Scale practices, let's take a look at the Developer Experience with DX@Scale.
+
+::prose-video
+---
+video-id: 4og4gR6s0tY
+aspect-ratio: 16:9
+---
+
 ## Why DX@Scale?
 
 Salesforce was a platform designed with the "clicks not code" philosophy, since then, it has evolved from a CRM platform into an Enterprise Platform. Many companies now consider Salesforce a critical system, and the number of applications it supports is consistently increasing, alongside the level of customisation and complexity.
@@ -25,14 +35,6 @@ Which leads to:
 1. Reduction in terms of cost/overhead in Salesforce Programs.
 
 DX@Scale extends the existing Salesforce DX ecosystem by providing:
-
-## Developer Experience with DX@Scale
-
-::prose-video
----
-video-id: 4og4gR6s0tY
-aspect-ratio: 16:9
----
 
 <!-- {% embed url="https://www.youtube.com/watch?v=4og4gR6s0tY" %} -->
 
