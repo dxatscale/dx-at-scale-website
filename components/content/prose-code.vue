@@ -1,6 +1,6 @@
 <template>
   <div class="relative my-1 overflow-hidden rounded-md bg-slate-50/50 py-2 text-base dark:bg-slate-800">
-    <div class="flex justify-between px-2">
+    <div class="flex justify-between px-2 pb-2">
       <div class="text-xs text-slate-500">
         {{ filename }}
       </div>
@@ -81,7 +81,7 @@ const props = withDefaults(
 }
 
 :slotted(pre code .highlight) {
-  @apply border-l-2 border-cyan-400 bg-cyan-400/10 dark:border-cyan-600 dark:bg-cyan-700/10;
+  @apply border-l-2 border-cyan-400 bg-cyan-400/20 dark:border-cyan-600 dark:bg-cyan-700/20;
   display: block;
   margin-right: -1em;
   margin-left: -1em;
