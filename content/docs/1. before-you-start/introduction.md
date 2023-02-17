@@ -20,7 +20,7 @@ The introduction of Salesforce DX is revolutionising the ways of working with Sa
 
 Which leads to:
 
-1. Simplifidation of the developer experience,
+1. Simplification of the developer experience,
 1. Ability to achieve consistent and reliable deployments,
 1. Reduction in terms of cost/overhead in Salesforce Programs.
 
@@ -28,6 +28,12 @@ DX@Scale extends the existing Salesforce DX ecosystem by providing:
 
 ## Developer Experience with DX@Scale
 
-{% embed url="https://www.youtube.com/watch?v=4og4gR6s0tY" %}
+::prose-video
+---
+video-id: 4og4gR6s0tY
+aspect-ratio: 16:9
+---
+
+<!-- {% embed url="https://www.youtube.com/watch?v=4og4gR6s0tY" %} -->
 
 An optimized Developer Experience is paramount for us while building DX@Scale. We are constantly focusing on improving our tools ensuring these practices are easy to adopt in your organization.
