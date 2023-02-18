@@ -68,8 +68,8 @@ const { data: navigation } = await useAsyncData('navigation', () => fetchContent
       <li v-for="(item, index) in navigation" :key="index">
         <div v-if="item.children">
           <ul>
-            <li v-for="(child, index) in item.children" :key="index" class="mt-12 lg:mt-8">
-              <h5 class="mb-4 font-semibold text-slate-900 dark:text-slate-200 lg:mb-3">{{ child.title }}</h5>
+            <li v-for="(child, index) in item.children" :key="index" class="mt-8">
+              <h5 class="mb-3 font-semibold text-slate-900 dark:text-slate-200">{{ child.title }}</h5>
               <div v-if="child.children">
                 <ul class="space-y-2 border-l border-slate-100 dark:border-slate-800">
                   <li v-for="(grandchild, index) in child.children" :key="index">
