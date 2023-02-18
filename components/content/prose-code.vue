@@ -1,25 +1,7 @@
-<template>
-  <div class="relative my-1 overflow-hidden rounded-md bg-slate-50/50 py-2 text-base dark:bg-slate-800">
-    <div class="flex justify-between px-2 pb-2">
-      <div class="text-xs text-slate-500">
-        {{ filename }}
-      </div>
-      <div class="h-4 w-4 text-slate-500 hover:text-slate-700 dark:hover:text-slate-300">
-        <button @click="copy(code)" class="">
-          <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 512 512">
-            <path fill="currentColor" d="M272 416C263.2 416 256 423.2 256 432V448c0 17.67-14.33 32-32 32H64c-17.67 0-32-14.33-32-32V192c0-17.67 14.33-32 32-32h112C184.8 160 192 152.8 192 144C192 135.2 184.8 128 176 128H63.99c-35.35 0-64 28.65-64 64l.0098 256C0 483.3 28.65 512 64 512h160c35.35 0 64-28.65 64-64v-16C288 423.2 280.8 416 272 416zM502.6 86.63l-77.25-77.25C419.4 3.371 411.2 0 402.7 0H288C252.7 0 224 28.65 224 64v256c0 35.35 28.65 64 64 64h160c35.35 0 64-28.65 64-64V109.3C512 100.8 508.6 92.63 502.6 86.63zM416 45.25L466.7 96H416V45.25zM480 320c0 17.67-14.33 32-32 32h-160c-17.67 0-32-14.33-32-32V64c0-17.67 14.33-32 32-32h96l.0026 64c0 17.67 14.33 32 32 32H480V320z" />
-          </svg>
-        </button>
-      </div>
-    </div>
-    <slot />
-  </div>
-</template>
-
 <script setup lang="ts">
 import { useClipboard } from '@vueuse/core'
 
-const { copy } = useClipboard()
+const { copy, copied } = useClipboard()
 
 const props = withDefaults(
   defineProps<{
@@ -32,28 +14,45 @@ const props = withDefaults(
 )
 </script>
 
+<template>
+  <div class="relative overflow-visible rounded-xl bg-slate-50 pb-2 ring-1 ring-black/5 dark:bg-slate-800 dark:ring-white/5 xl:ml-0">
+    <div class="relative flex text-xs leading-6 text-slate-400">
+      <div v-if="filename" class="mt-2 flex flex-none items-center border-t border-b border-t-transparent border-b-sky-700 px-4 py-1 text-sky-700 dark:border-b-sky-700 dark:text-sky-300">{{ filename }}</div>
+      <div class="flex flex-auto rounded-tr-xl pt-2">
+        <div class="-mr-px flex-auto rounded-tl border-y border-l bg-slate-200/50 dark:border-slate-500/30 dark:bg-slate-700/50">
+          <div class="flex h-8 items-center justify-end pr-4">
+            <div class="relative -mr-2 flex">
+              <div class="mb-4 flex items-center">
+                <div v-if="copied" class="absolute -left-3 -top-9 mb-2 rounded-lg bg-sky-400 p-2 text-xs text-slate-800 dark:bg-sky-600 dark:text-slate-200">
+                  <div>Copied!</div>
+                  <div class="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 transform bg-sky-400 dark:bg-sky-600"></div>
+                </div>
+              </div>
+
+              <button @click="copy(code)" type="button" class="text-slate-400 hover:text-slate-500 dark:text-slate-500 dark:hover:text-slate-400">
+                <svg fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="h-8 w-8">
+                  <path d="M13 10.75h-1.25a2 2 0 0 0-2 2v8.5a2 2 0 0 0 2 2h8.5a2 2 0 0 0 2-2v-8.5a2 2 0 0 0-2-2H19"></path>
+                  <path d="M18 12.25h-4a1 1 0 0 1-1-1v-1.5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1.5a1 1 0 0 1-1 1ZM13.75 16.25h4.5M13.75 19.25h4.5"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="relative">
+      <slot />
+    </div>
+  </div>
+</template>
+
 <style scoped>
-.bottom-container {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.filename-text  {
-  position: absolute;
-  top: 0;
-  left: 1em;
-  padding: 0.25em 0.5em;
-  color: white;
-  font-size: 14px;
-}
-
 :slotted(pre) {
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
   flex: 1 1 0%;
   overflow-x: auto;
-  padding: 1rem;
   line-height: 1.625;
   counter-reset: lines;
   @apply bg-slate-50 dark:bg-slate-800;
@@ -61,6 +60,7 @@ const props = withDefaults(
 
 :slotted(pre code) {
   width: 100%;
+  background-color: #00000000;
   display: flex;
   flex-direction: column;
 }
@@ -83,9 +83,9 @@ const props = withDefaults(
 :slotted(pre code .highlight) {
   @apply border-l-2 border-cyan-400 bg-cyan-400/20 dark:border-cyan-600 dark:bg-cyan-700/20;
   display: block;
-  margin-right: -1em;
-  margin-left: -1em;
-  padding-right: 1em;
+  margin-right: -1.2em;
+  margin-left: -1.2em;
+  padding-right: 1.1em;
   padding-left: 0.75em;
 }
 </style>
