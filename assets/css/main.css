@@ -32,7 +32,7 @@ html {
   --shiki-token-constant: var(--color-slate-800);
   --shiki-color-text: var(--color-slate-600);
   --shiki-token-string-expression: var(--color-rose-700);
-  --shiki-token-string: --var(--color-green-600);
+  --shiki-token-string: var(--color-green-600);
   --line-numbers: var(--color-slate-300);
   /*
   --shiki-token-parameter: #aa0000;
