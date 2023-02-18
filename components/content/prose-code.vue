@@ -15,7 +15,7 @@ const props = withDefaults(
 </script>
 
 <template>
-  <div class="relative overflow-visible rounded-xl bg-slate-50 pb-2 ring-1 ring-black/5 dark:bg-slate-800 dark:ring-white/5 xl:ml-0">
+  <div class="relative overflow-visible rounded-lg bg-slate-50 pb-2 ring-1 ring-black/5 dark:bg-slate-800 dark:ring-white/5 xl:ml-0">
     <div class="relative flex text-xs leading-6 text-slate-400">
       <div v-if="filename" class="mt-2 flex flex-none items-center border-t border-b border-t-transparent border-b-sky-700 px-4 py-1 text-sky-700 dark:border-b-sky-700 dark:text-sky-300">{{ filename }}</div>
       <div class="flex flex-auto rounded-tr-xl pt-2">
