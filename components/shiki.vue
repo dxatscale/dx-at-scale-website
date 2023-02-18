@@ -46,42 +46,6 @@ const hlCode = await useShiki(ref(formattedCode), {
 </template>
 
 <style>
-.shiki .line {
-  @apply leading-relaxed;
-}
-:root {
-  --shiki-color-background: #00000000;
-  --shiki-token-keyword: var(--color-sky-700);
-  --shiki-token-comment: var(--color-slate-300);
-  --shiki-token-punctuation: var(--color-slate-400);
-  --shiki-token-function: var(--color-teal-600);
-  --shiki-token-constant: var(--color-slate-800);
-  --shiki-color-text: var(--color-slate-600);
-  --shiki-token-string-expression: var(--color-rose-700);
-  --shiki-token-string: #00ff00;
-  --line-numbers: var(--color-slate-300);
-  /*
-  --shiki-token-parameter: #aa0000;
-  --shiki-token-link: #ee0000;
-  */
-}
-
-html.dark {
-  --shiki-color-background: #00000000;
-  --shiki-token-keyword: var(--color-sky-300);
-  --shiki-token-comment: var(--color-slate-600);
-  --shiki-token-punctuation: var(--color-slate-700);
-  --shiki-token-function: var(--color-teal-400);
-  --shiki-token-constant: var(--color-slate-200);
-  --shiki-color-text: var(--color-slate-300);
-  --shiki-token-string-expression: var(--color-rose-300);
-  --line-numbers: var(--color-slate-600);
-  --shiki-token-string: #00ff00;
-}
-.shiki .line {
-  @apply inline-block;
-}
-
 .code code {
   counter-reset: step;
   counter-increment: step 0;
