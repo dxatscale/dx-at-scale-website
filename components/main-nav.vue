@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
-import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
+import { XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
   { name: 'Documentation', href: 'https://docs.dxatscale.io', target: '_blank' },
@@ -24,7 +24,7 @@ const navigation = [
               <div class="-mr-2 flex items-center md:hidden">
                 <PopoverButton class="inline-flex items-center justify-center rounded-md bg-slate-50 p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500 dark:bg-slate-900 dark:text-slate-600 dark:hover:bg-slate-900/70 dark:hover:text-slate-400">
                   <span class="sr-only">Open main menu</span>
-                  <Bars3Icon class="h-6 w-6" aria-hidden="true" />
+                  <svg width="24" height="24" fill="none" aria-hidden="true"><path d="M12 6v.01M12 12v.01M12 18v.01M12 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm0 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm0 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                 </PopoverButton>
               </div>
             </div>
