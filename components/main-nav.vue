@@ -23,7 +23,7 @@
           <div class="hidden md:flex md:items-center">
             <div class="ml-6 mr-3 hidden h-5 w-px bg-slate-900/10 md:block"></div>
             <span class="mt-2">
-              <theme-toggler />
+              <theme-toggler2 />
             </span>
             <nuxt-link href="https://github.com/dxatscale" target="_blank" class="ml-3 block text-slate-400 hover:text-slate-600 dark:text-slate-500 dark:hover:text-slate-300">
               <span class="sr-only">DX@Scale on GitHub</span>
@@ -40,22 +40,24 @@
       </div>
 
       <transition enter-active-class="duration-150 ease-out" enter-from-class="opacity-0 scale-95" enter-to-class="opacity-100 scale-100" leave-active-class="duration-100 ease-in" leave-from-class="opacity-100 scale-100" leave-to-class="opacity-0 scale-95">
-        <PopoverPanel focus class="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden">
-          <div class="rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5 dark:bg-slate-800">
-            <div class="flex items-center justify-between px-5 pt-4">
-              <div>
-                <logo-dxatscale class="h-8 w-auto" />
+        <PopoverPanel class="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden">
+          <div class="rounded-lg bg-white dark:bg-slate-900">
+            <div class="rounded-lg shadow-md ring-1 ring-black ring-opacity-5">
+              <div class="flex items-center justify-between px-5 pt-4">
+                <div>
+                  <logo-dxatscale class="h-8 w-auto" />
+                </div>
+                <div class="-mr-2">
+                  <PopoverButton class="inline-flex items-center justify-center rounded-md p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500 dark:text-slate-600 dark:hover:bg-slate-900/70 dark:hover:text-slate-400">
+                    <span class="sr-only">Close main menu</span>
+                    <XMarkIcon class="h-6 w-6" aria-hidden="true" />
+                  </PopoverButton>
+                </div>
               </div>
-              <div class="-mr-2">
-                <PopoverButton class="inline-flex items-center justify-center rounded-md bg-white p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500 dark:bg-slate-900 dark:text-slate-600 dark:hover:bg-slate-900/70 dark:hover:text-slate-400">
-                  <span class="sr-only">Close main menu</span>
-                  <XMarkIcon class="h-6 w-6" aria-hidden="true" />
-                </PopoverButton>
+              <div class="space-y-1 px-2 pt-2 pb-3">
+                <nuxt-link v-for="item in navigation" :key="item.name" :href="item.href" target="_blank" class="block rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-900/70">{{ item.name }}</nuxt-link>
+                <theme-toggler2 />
               </div>
-            </div>
-            <div class="space-y-1 px-2 pt-2 pb-3">
-              <nuxt-link v-for="item in navigation" :key="item.name" :href="item.href" target="_blank" class="block rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-900/70">{{ item.name }}</nuxt-link>
-              <theme-toggler />
             </div>
           </div>
         </PopoverPanel>
