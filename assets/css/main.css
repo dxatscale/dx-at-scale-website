@@ -34,10 +34,10 @@ html {
   --shiki-token-string-expression: var(--color-rose-700);
   --shiki-token-string: var(--color-green-600);
   --line-numbers: var(--color-slate-300);
-  /*
-  --shiki-token-parameter: #aa0000;
-  --shiki-token-link: #ee0000;
-  */
+
+  --shiki-token-parameter: #aa00ee;
+  --shiki-token-link: #00eeee;
+
 }
 
 html.dark {

@@ -70,7 +70,7 @@ const props = withDefaults(
   min-height: 1rem;
 }
 
-:slotted(pre code .line::before) {
+/* :slotted(pre code .line::before) {
   counter-increment: lines;
   content: counter(lines);
   width: 1rem;
@@ -78,7 +78,7 @@ const props = withDefaults(
   display: inline-block;
   text-align: right;
   color: rgba(115, 138, 148, 0.4);
-}
+} */
 
 :slotted(pre code .highlight) {
   @apply border-l-2 border-cyan-400 bg-cyan-400/20 dark:border-cyan-600 dark:bg-cyan-700/20;
