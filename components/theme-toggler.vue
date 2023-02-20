@@ -19,10 +19,6 @@ const { theme, setTheme, getTheme } = useTheme()
 
 const selectedTheme = computed(() => theme.value.charAt(0).toUpperCase() + theme.value.slice(1))
 
-onMounted(() => {
-  selectedTheme.value = getTheme()
-})
-
 const changeTheme = (value: string) => {
   setTheme(value)
 }
