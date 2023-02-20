@@ -35,7 +35,7 @@ const navigation = [
           <div class="hidden md:flex md:items-center">
             <div class="ml-6 mr-3 hidden h-5 w-px bg-slate-900/10 md:block"></div>
             <span class="mt-2">
-              <theme-toggler2 />
+              <theme-toggler />
             </span>
             <nuxt-link href="https://github.com/dxatscale" target="_blank" class="ml-3 block text-slate-400 hover:text-slate-600 dark:text-slate-500 dark:hover:text-slate-300">
               <span class="sr-only">DX@Scale on GitHub</span>
@@ -68,7 +68,7 @@ const navigation = [
               </div>
               <div class="space-y-1 px-2 pt-2 pb-3">
                 <nuxt-link v-for="item in navigation" :key="item.name" :href="item.href" target="_blank" class="block rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-900/70">{{ item.name }}</nuxt-link>
-                <theme-toggler2 />
+                <theme-toggler />
               </div>
             </div>
           </div>
