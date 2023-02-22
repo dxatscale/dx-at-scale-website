@@ -1,9 +1,9 @@
 <template>
   <section class="relative mt-16">
-    <div class="absolute inset-x-0 isolate transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
+    <div class="absolute inset-x-0 isolate transform-gpu overflow-hidden blur-3xl md:top-[-20rem]">
       <high-beam />
     </div>
-    <div class="absolute inset-x-0 top-[calc(100%-13rem)] transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"><low-beam /></div>
+    <div class="absolute inset-x-0 top-[calc(100%-13rem)] transform-gpu overflow-hidden blur-3xl md:top-[calc(100%-30rem)]"><low-beam /></div>
     <div class="container relative mx-auto max-w-7xl px-4 md:grid md:grid-cols-3">
       <div class="absolute -top-12 right-0 hidden md:block"><img class="w-96" src="~/assets/img/bg/hero-image.webp" /></div>
       <div class="relative col-span-2 flex h-full flex-col justify-between text-center md:text-left">

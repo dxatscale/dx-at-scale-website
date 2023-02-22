@@ -1,6 +1,6 @@
 export default function useTheme() {
   // const theme = useState<string | null>('light', () => null)
-  const theme = ref('light')
+  const theme = ref('')
 
   onMounted(() => {
     theme.value = localStorage.getItem('theme')
