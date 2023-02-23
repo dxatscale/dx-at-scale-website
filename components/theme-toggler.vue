@@ -80,7 +80,7 @@ const selectTheme = (event: Event) => {
     </PopoverButton>
   </Popover>
 
-  <div class="mt-6 border-t border-slate-200 pt-6 dark:border-slate-200/10 md:hidden">
+  <div class="border-t border-slate-200 pt-3 dark:border-slate-200/10 md:hidden">
     <div class="flex items-center justify-between px-3">
       <label for="theme" class="text-sm font-medium text-slate-700 dark:text-slate-400">Switch theme</label>
       <div class="relative flex items-center rounded-lg p-2 text-sm font-medium text-slate-700 shadow-sm ring-1 ring-slate-900/10 dark:bg-slate-700 dark:text-slate-300 dark:ring-0 dark:highlight-white/5">

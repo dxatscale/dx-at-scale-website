@@ -13,7 +13,7 @@
                 <div class="-mr-2 flex items-center md:hidden">
                   <PopoverButton class="inline-flex items-center justify-center rounded-md bg-slate-50 p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500 dark:bg-slate-900 dark:text-slate-600 dark:hover:bg-slate-900/70 dark:hover:text-slate-400">
                     <span class="sr-only">Open main menu</span>
-                    <Bars3Icon class="h-6 w-6" aria-hidden="true" />
+                    <svg width="24" height="24" fill="none" aria-hidden="true"><path d="M12 6v.01M12 12v.01M12 18v.01M12 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm0 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm0 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                   </PopoverButton>
                 </div>
               </div>
@@ -43,7 +43,7 @@
         <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
           <!-- <PopoverPanel class="absolute z-10 -ml-4 mt-3 w-screen max-w-md transform lg:left-1/2 lg:ml-0 lg:max-w-2xl lg:-translate-x-1/2"> -->
           <PopoverPanel class="absolute inset-x-0 top-0 z-10 origin-top-right transform bg-white/0 p-2 dark:bg-black/0 md:hidden">
-            <div class="rounded-lg rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5 transition-colors transition duration-1000 dark:bg-slate-900">
+            <div class="rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5 transition duration-1000 dark:bg-slate-900">
               <div class="flex items-center justify-between px-5 pt-4">
                 <div>
                   <logo-dxatscale class="h-8 w-auto" />
