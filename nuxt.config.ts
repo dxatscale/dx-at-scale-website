@@ -8,5 +8,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: [],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
 })
