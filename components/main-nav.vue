@@ -1,6 +1,6 @@
 <template>
   <header class="sticky top-0 z-40 w-full flex-none border-b border-slate-900/10 bg-white/80 p-4 backdrop-blur dark:border-slate-50/[0.06] dark:bg-transparent lg:z-50">
-    <div class="mx-auto max-w-7xl">
+    <div class="mx-auto max-w-8xl">
       <Popover>
         <div class="mx-auto px-4">
           <nav class="relative flex items-center justify-between sm:h-10 md:justify-end" aria-label="Global">
