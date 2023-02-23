@@ -8,7 +8,11 @@ export default function useTheme() {
 
   const setTheme = (value: string) => {
     theme.value = value
-    localStorage.setItem('theme', theme.value)
+    if (value === 'dark' || value === 'light') {
+      localStorage.setItem('theme', theme.value)
+    } else {
+      localStorage.removeItem('theme')
+    }
     applyTheme()
   }
 
