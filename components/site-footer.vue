@@ -3,10 +3,10 @@ import { defineComponent, h } from 'vue'
 
 const navigation = {
   main: [
-    { name: 'Documentation', href: 'https://docs.dxatscale.io/' },
-    { name: 'Getting Started', href: 'https://docs.dxatscale.io/implementing-your-ci-cd/prerequisites' },
-    { name: 'Release Logs', href: 'https://github.com/dxatscale/dxatscale/releases' },
-    { name: 'Team', href: 'https://docs.dxatscale.io/about-us/meet-our-team' },
+    { name: 'Documentation', href: 'https://docs.dxatscale.io/', target: '_blank' },
+    { name: 'Getting Started', href: '/docs/before-you-start/introduction', target: '' },
+    { name: 'Release Logs', href: 'https://github.com/dxatscale/dxatscale/releases', target: '_blank' },
+    { name: 'Team', href: 'https://docs.dxatscale.io/about-us/meet-our-team', target: '_blank' },
   ],
   social: [
     {
@@ -61,7 +61,7 @@ const navigation = {
         <div class="col-span-9">
           <nav class="h-full columns-2 sm:flex sm:columns-auto sm:items-center sm:justify-between" aria-label="Footer">
             <div v-for="item in navigation.main" :key="item.name">
-              <a :href="item.href" target="_blank" class="block text-sm leading-6 text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100">{{ item.name }}</a>
+              <a :href="item.href" :target="item.target" class="block text-sm leading-6 text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100">{{ item.name }}</a>
             </div>
           </nav>
         </div>
