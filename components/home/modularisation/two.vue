@@ -1,3 +1,34 @@
+<script setup lang="ts">
+const code = `
+{
+   "packageDirectories": [
+-  {
+-      "path": "force-app",
+-      "default": true
+-  }
++  {
++      "path": "packages/billing/products-pre",
++      "package": "billing-product-catalogue-records-pre",
++      "versionName": "billing-product-catalogue-records-pre-1.1",
++      "versionNumber": "1.5.12.0",
++      "dependencies": [{
++        "package": "Salesforce Billing"
++        },
++        { ... }
++      ]
++    },
++    ...
++    { "path": "packages/billing/products-post", ... },
++    { "path": "packages/case-management/case-config", ... },
++    { "path": "packages/case-management/case-entitlements", ... },
++    { "path": "packages/case-management/case-management-core", ... },
++    { "path": "packages/case-management/web-to-case-api", ... },
++    ...
++  ]
+}
+`
+</script>
+
 <template>
   <home-modularisation-benefits>
     <vscode>
@@ -144,34 +175,3 @@
     </vscode>
   </home-modularisation-benefits>
 </template>
-
-<script setup lang="ts">
-const code = `
-{
-   "packageDirectories": [
--  {
--      "path": "force-app",
--      "default": true
--  }
-+  {
-+      "path": "packages/billing/products-pre",
-+      "package": "billing-product-catalogue-records-pre",
-+      "versionName": "billing-product-catalogue-records-pre-1.1",
-+      "versionNumber": "1.5.12.0",
-+      "dependencies": [{
-+        "package": "Salesforce Billing"
-+        },
-+        { ... }
-+      ]
-+    },
-+    ...
-+    { "path": "packages/billing/products-post", ... },
-+    { "path": "packages/case-management/case-config", ... },
-+    { "path": "packages/case-management/case-entitlements", ... },
-+    { "path": "packages/case-management/case-management-core", ... },
-+    { "path": "packages/case-management/web-to-case-api", ... },
-+    ...
-+  ]
-}
-`
-</script>

@@ -1,3 +1,20 @@
+<script setup lang="ts">
+const code = `
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "happy-soup",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "56.0"
+}
+`
+</script>
+
 <template>
   <home-modularisation-benefits>
     <vscode>
@@ -153,20 +170,3 @@
     </vscode>
   </home-modularisation-benefits>
 </template>
-
-<script setup lang="ts">
-const code = `
-{
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
-  ],
-  "name": "happy-soup",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "56.0"
-}
-`
-</script>

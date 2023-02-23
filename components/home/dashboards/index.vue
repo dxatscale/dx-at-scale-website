@@ -1,3 +1,21 @@
+<script setup>
+import { ref } from 'vue'
+
+const steps = [
+  {
+    name: 'Metrics',
+    icon: resolveComponent('icon-file-lines'),
+    content: resolveComponent('home-dashboards-one'),
+  },
+  {
+    name: 'Dashboards',
+    icon: resolveComponent('icon-chart-column'),
+    content: resolveComponent('home-dashboards-two'),
+  },
+]
+const activeTab = ref(0)
+</script>
+
 <template>
   <div class="relative mx-auto mt-36 max-w-7xl px-4">
     <div class="max-w-3xl">
@@ -27,21 +45,3 @@
     </textured-section>
   </div>
 </template>
-
-<script setup>
-import { ref } from 'vue'
-
-const steps = [
-  {
-    name: 'Metrics',
-    icon: resolveComponent('icon-file-lines'),
-    content: resolveComponent('home-dashboards-one'),
-  },
-  {
-    name: 'Dashboards',
-    icon: resolveComponent('icon-chart-column'),
-    content: resolveComponent('home-dashboards-two'),
-  },
-]
-const activeTab = ref(0)
-</script>

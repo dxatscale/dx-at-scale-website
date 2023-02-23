@@ -1,3 +1,12 @@
+<script setup lang="ts">
+const metrics = [
+  { id: 1, stat: '0', emphasis: 'Severity 1 or 2', rest: ' defects in production since the first go-live in 2020.' },
+  { id: 2, stat: '99%', emphasis: 'Success rate', rest: ' for our deployments in production.' },
+  { id: 3, stat: '3x', emphasis: 'Velocity:', rest: ' one of our community users reported this improvement when using DX@Scale compared to other methods.' },
+  { id: 4, stat: 'On Demand', emphasis: 'Release capability:', rest: ' when a fix or a more important feature is ready, it goes to production: no need to wait.' },
+]
+</script>
+
 <template>
   <section class="mt-36">
     <div class="relative mx-auto max-w-7xl px-4">
@@ -30,12 +39,3 @@
     </textured-section>
   </section>
 </template>
-
-<script setup>
-const metrics = [
-  { id: 1, stat: '0', emphasis: 'Severity 1 or 2', rest: ' defects in production since the first go-live in 2020.' },
-  { id: 2, stat: '99%', emphasis: 'Success rate', rest: ' for our deployments in production.' },
-  { id: 3, stat: '3x', emphasis: 'Velocity:', rest: ' one of our community users reported this improvement when using DX@Scale compared to other methods.' },
-  { id: 4, stat: 'On Demand', emphasis: 'Release capability:', rest: ' when a fix or a more important feature is ready, it goes to production: no need to wait.' },
-]
-</script>

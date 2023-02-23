@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 z-40 w-full flex-none bg-white/95 p-4 backdrop-blur dark:border-slate-50/[0.06] dark:bg-transparent lg:z-50 lg:border-b lg:border-slate-900/10">
+  <header class="sticky top-0 z-40 w-full flex-none border-b border-slate-900/10 bg-white/80 p-4 backdrop-blur dark:border-slate-50/[0.06] dark:bg-transparent lg:z-50">
     <div class="mx-auto max-w-7xl">
       <Popover>
         <div class="mx-auto px-4">
@@ -8,18 +8,18 @@
               <div class="flex w-full items-center justify-between md:w-auto">
                 <nuxt-link href="/">
                   <span class="sr-only">DX@Scale</span>
-                  <logo-dxatscale class="h-8" />
+                  <logo-dxatscale class="w-16" />
                 </nuxt-link>
                 <div class="-mr-2 flex items-center md:hidden">
                   <PopoverButton class="inline-flex items-center justify-center rounded-md bg-slate-50 p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500 dark:bg-slate-900 dark:text-slate-600 dark:hover:bg-slate-900/70 dark:hover:text-slate-400">
                     <span class="sr-only">Open main menu</span>
-                    <Bars3Icon class="h-6 w-6" aria-hidden="true" />
+                    <svg width="24" height="24" fill="none" aria-hidden="true"><path d="M12 6v.01M12 12v.01M12 18v.01M12 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm0 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm0 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                   </PopoverButton>
                 </div>
               </div>
             </div>
             <div class="hidden md:flex md:space-x-10">
-              <nuxt-link v-for="item in navigation" :key="item.name" :href="item.href" target="_blank" class="text-sm font-medium text-slate-700 hover:text-slate-900 dark:text-slate-400 hover:dark:text-slate-200">{{ item.name }}</nuxt-link>
+              <nuxt-link v-for="item in navigation" :key="item.name" :href="item.href" :target="item.target" class="text-sm font-medium text-slate-700 hover:text-slate-900 dark:text-slate-400 hover:dark:text-slate-200">{{ item.name }}</nuxt-link>
             </div>
             <div class="hidden md:flex md:items-center">
               <div class="ml-6 mr-3 hidden h-5 w-px bg-slate-900/10 md:block"></div>
@@ -43,7 +43,7 @@
         <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
           <!-- <PopoverPanel class="absolute z-10 -ml-4 mt-3 w-screen max-w-md transform lg:left-1/2 lg:ml-0 lg:max-w-2xl lg:-translate-x-1/2"> -->
           <PopoverPanel class="absolute inset-x-0 top-0 z-10 origin-top-right transform bg-white/0 p-2 dark:bg-black/0 md:hidden">
-            <div class="rounded-lg rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5 transition-colors transition duration-1000 dark:bg-slate-900">
+            <div class="rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5 transition duration-1000 dark:bg-slate-900">
               <div class="flex items-center justify-between px-5 pt-4">
                 <div>
                   <logo-dxatscale class="h-8 w-auto" />
@@ -69,12 +69,12 @@
 
 <script setup>
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
-import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
+import { XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
-  { name: 'Documentation', href: 'https://docs.dxatscale.io/' },
-  { name: 'Getting Started', href: 'https://docs.dxatscale.io/implementing-your-ci-cd/prerequisites' },
-  { name: 'Release Logs', href: 'https://github.com/dxatscale/dxatscale/releases' },
-  { name: 'Team', href: 'https://docs.dxatscale.io/about-us/meet-our-team' },
+  { name: 'Documentation', href: 'https://docs.dxatscale.io/', target: '_blank' },
+  { name: 'Getting Started', href: '/docs/before-you-start/introduction', target: '' },
+  { name: 'Release Logs', href: 'https://github.com/dxatscale/dxatscale/releases', target: '_blank' },
+  { name: 'Team', href: 'https://docs.dxatscale.io/about-us/meet-our-team', target: '_blank' },
 ]
 </script>

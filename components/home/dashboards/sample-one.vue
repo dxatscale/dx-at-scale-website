@@ -1,3 +1,68 @@
+<script lang="ts" setup>
+import { ArrowDownIcon, ArrowUpIcon } from '@heroicons/vue/20/solid'
+
+const modules = [
+  {
+    name: 'sales',
+    installTime: 12.09,
+    metadataCount: 428,
+    averageInstallTime: 7.23,
+  },
+  {
+    name: 'service',
+    installTime: 7.94,
+    metadataCount: 210,
+    averageInstallTime: 5.58,
+  },
+  {
+    name: 'billing-product-pre',
+    installTime: 2.39,
+    metadataCount: 28,
+    averageInstallTime: 1.23,
+  },
+  {
+    name: 'billing-product-post',
+    installTime: 3.23,
+    metadataCount: 8,
+    averageInstallTime: 0.5,
+  },
+  {
+    name: 'case-config',
+    installTime: 2.24,
+    metadataCount: 132,
+    averageInstallTime: 4.5,
+  },
+  {
+    name: 'case-entitlements',
+    installTime: 4.17,
+    metadataCount: 48,
+    averageInstallTime: 4.23,
+  },
+  {
+    name: 'web-to-case-api',
+    installTime: 7.29,
+    metadataCount: 26,
+    averageInstallTime: 3.57,
+  },
+  {
+    name: 'marketing-preferences',
+    installTime: 1.98,
+    metadataCount: 8,
+    averageInstallTime: 2.18,
+  },
+]
+const stats = [
+  { name: '# Pull Requests', stat: '137', previousStat: '118', change: '16%', changeType: 'better' },
+  { name: 'Validation Time in mn', stat: '14.41', previousStat: '15.13', change: '-4.1%', changeType: 'better' },
+  { name: 'Success Rate', stat: '60.87%', previousStat: '70.62%', change: '-13.8%', changeType: 'worse' },
+  { name: 'Feedback Time in mn', stat: '11.9', previousStat: '13.2', change: '-9.8%', changeType: 'better' },
+]
+const getWidthStyle = (t: number) => {
+  const widthPercentage = Math.min(100, Math.round((t / 10) * 100))
+  return `width: ${widthPercentage}%; background-color: ${widthPercentage > 50 ? '#ef4444' : '#84cc16'};`
+}
+</script>
+
 <template>
   <div class="bg-white/10 backdrop-blur dark:bg-slate-900/10 lg:rounded-xl">
     <div class="p-4">
@@ -74,68 +139,3 @@
     </div>
   </div>
 </template>
-
-<script lang="ts" setup>
-import { ArrowDownIcon, ArrowUpIcon } from '@heroicons/vue/20/solid'
-
-const modules = [
-  {
-    name: 'sales',
-    installTime: 12.09,
-    metadataCount: 428,
-    averageInstallTime: 7.23,
-  },
-  {
-    name: 'service',
-    installTime: 7.94,
-    metadataCount: 210,
-    averageInstallTime: 5.58,
-  },
-  {
-    name: 'billing-product-pre',
-    installTime: 2.39,
-    metadataCount: 28,
-    averageInstallTime: 1.23,
-  },
-  {
-    name: 'billing-product-post',
-    installTime: 3.23,
-    metadataCount: 8,
-    averageInstallTime: 0.5,
-  },
-  {
-    name: 'case-config',
-    installTime: 2.24,
-    metadataCount: 132,
-    averageInstallTime: 4.5,
-  },
-  {
-    name: 'case-entitlements',
-    installTime: 4.17,
-    metadataCount: 48,
-    averageInstallTime: 4.23,
-  },
-  {
-    name: 'web-to-case-api',
-    installTime: 7.29,
-    metadataCount: 26,
-    averageInstallTime: 3.57,
-  },
-  {
-    name: 'marketing-preferences',
-    installTime: 1.98,
-    metadataCount: 8,
-    averageInstallTime: 2.18,
-  },
-]
-const stats = [
-  { name: '# Pull Requests', stat: '137', previousStat: '118', change: '16%', changeType: 'better' },
-  { name: 'Validation Time in mn', stat: '14.41', previousStat: '15.13', change: '-4.1%', changeType: 'better' },
-  { name: 'Success Rate', stat: '60.87%', previousStat: '70.62%', change: '-13.8%', changeType: 'worse' },
-  { name: 'Feedback Time in mn', stat: '11.9', previousStat: '13.2', change: '-9.8%', changeType: 'better' },
-]
-const getWidthStyle = (t: number) => {
-  const widthPercentage = Math.min(100, Math.round((t / 10) * 100))
-  return `width: ${widthPercentage}%; background-color: ${widthPercentage > 50 ? '#ef4444' : '#84cc16'};`
-}
-</script>

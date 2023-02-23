@@ -1,3 +1,21 @@
+<script setup lang="ts">
+import { ref } from 'vue'
+
+const steps = [
+  {
+    name: 'Declarative',
+    icon: resolveComponent('icon-gears'),
+    content: resolveComponent('home-orchestrator-one'),
+  },
+  {
+    name: 'Optimised',
+    icon: resolveComponent('icon-rabbit-running'),
+    content: resolveComponent('home-orchestrator-two'),
+  },
+]
+const activeTab = ref(0)
+</script>
+
 <template>
   <div class="relative mx-auto mt-36 max-w-7xl px-4">
     <div class="max-w-3xl">
@@ -32,21 +50,3 @@
     </textured-section>
   </div>
 </template>
-
-<script setup>
-import { ref } from 'vue'
-
-const steps = [
-  {
-    name: 'Declarative',
-    icon: resolveComponent('icon-gears'),
-    content: resolveComponent('home-orchestrator-one'),
-  },
-  {
-    name: 'Optimised',
-    icon: resolveComponent('icon-rabbit-running'),
-    content: resolveComponent('home-orchestrator-two'),
-  },
-]
-const activeTab = ref(0)
-</script>
