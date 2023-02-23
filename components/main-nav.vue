@@ -39,25 +39,29 @@
             </div>
           </nav>
         </div>
-        <PopoverPanel class="absolute inset-x-0 top-0 z-10 origin-top-right transform bg-white/0 p-2 transition dark:bg-black/0 md:hidden">
-          <div class="rounded-lg rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5 dark:bg-slate-900">
-            <div class="flex items-center justify-between px-5 pt-4">
-              <div>
-                <logo-dxatscale class="h-8 w-auto" />
+
+        <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
+          <!-- <PopoverPanel class="absolute z-10 -ml-4 mt-3 w-screen max-w-md transform lg:left-1/2 lg:ml-0 lg:max-w-2xl lg:-translate-x-1/2"> -->
+          <PopoverPanel class="absolute inset-x-0 top-0 z-10 origin-top-right transform bg-white/0 p-2 dark:bg-black/0 md:hidden">
+            <div class="rounded-lg rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5 transition-colors transition duration-1000 dark:bg-slate-900">
+              <div class="flex items-center justify-between px-5 pt-4">
+                <div>
+                  <logo-dxatscale class="h-8 w-auto" />
+                </div>
+                <div class="-mr-2">
+                  <PopoverButton class="inline-flex items-center justify-center rounded-md p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500 dark:text-slate-600 dark:hover:bg-slate-900/70 dark:hover:text-slate-400">
+                    <span class="sr-only">Close main menu</span>
+                    <XMarkIcon class="h-6 w-6" aria-hidden="true" />
+                  </PopoverButton>
+                </div>
               </div>
-              <div class="-mr-2">
-                <PopoverButton class="inline-flex items-center justify-center rounded-md p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500 dark:text-slate-600 dark:hover:bg-slate-900/70 dark:hover:text-slate-400">
-                  <span class="sr-only">Close main menu</span>
-                  <XMarkIcon class="h-6 w-6" aria-hidden="true" />
-                </PopoverButton>
+              <div class="space-y-1 px-2 pt-2 pb-3">
+                <a v-for="item in navigation" :key="item.name" :href="item.href" target="_blank" class="block rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-900/70">{{ item.name }}</a>
+                <theme-toggler />
               </div>
             </div>
-            <div class="space-y-1 px-2 pt-2 pb-3">
-              <a v-for="item in navigation" :key="item.name" :href="item.href" target="_blank" class="block rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-900/70">{{ item.name }}</a>
-              <theme-toggler />
-            </div>
-          </div>
-        </PopoverPanel>
+          </PopoverPanel>
+        </transition>
       </Popover>
     </div>
   </header>
