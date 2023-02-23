@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 z-40 w-full flex-none bg-white/95 p-4 backdrop-blur dark:border-slate-50/[0.06] dark:bg-transparent lg:z-50 lg:border-b lg:border-slate-900/10">
+  <header class="sticky top-0 z-40 w-full flex-none border-b border-slate-900/10 bg-white/80 p-4 backdrop-blur dark:border-slate-50/[0.06] dark:bg-transparent lg:z-50">
     <div class="mx-auto max-w-7xl">
       <Popover>
         <div class="mx-auto px-4">
@@ -8,7 +8,7 @@
               <div class="flex w-full items-center justify-between md:w-auto">
                 <nuxt-link href="/">
                   <span class="sr-only">DX@Scale</span>
-                  <logo-dxatscale class="h-8" />
+                  <logo-dxatscale class="w-16" />
                 </nuxt-link>
                 <div class="-mr-2 flex items-center md:hidden">
                   <PopoverButton class="inline-flex items-center justify-center rounded-md bg-slate-50 p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500 dark:bg-slate-900 dark:text-slate-600 dark:hover:bg-slate-900/70 dark:hover:text-slate-400">

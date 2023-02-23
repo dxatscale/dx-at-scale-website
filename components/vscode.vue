@@ -1,3 +1,12 @@
+<script setup>
+const props = defineProps({
+  explorerVisible: {
+    type: Boolean,
+    default: true,
+  },
+})
+</script>
+
 <template>
   <div class="relative">
     <div class="relative overflow-hidden bg-slate-50 shadow-xl ring-1 ring-inset ring-slate-500/20 backdrop-blur dark:bg-slate-800 dark:bg-slate-900/70 dark:ring-white/10 sm:rounded-xl">
@@ -110,12 +119,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-const props = defineProps({
-  explorerVisible: {
-    type: Boolean,
-    default: true,
-  },
-})
-</script>

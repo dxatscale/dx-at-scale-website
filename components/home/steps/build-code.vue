@@ -1,3 +1,35 @@
+<script setup lang="ts">
+const code = `
+{
+  "packageDirectories": [
+   {
+      "path": "packages/billing/products-pre",
+~      "type": "data",
+      "package": "billing-product-catalogue-records-pre",
+      "versionName": "billing-product-catalogue-records-pre-1.1",
+      "versionNumber": "1.5.12.0",
+~      "buildCollection": [
+~        "billing-product-catalogue-records-post"
+~      ],
+~      "checkpointForPrepare": true,
+      "dependencies": [{
+        "package": "Salesforce Billing"
+        },
+        { ... }
+      ]
+    },
+    ...
+    { "path": "packages/billing/products-post", ... },
+    { "path": "packages/case-management/case-config", ... },
+    { "path": "packages/case-management/case-entitlements", ... },
+    { "path": "packages/case-management/case-management-core", ... },
+    { "path": "packages/case-management/web-to-case-api", ... },
+    ...
+  ]
+}
+`
+</script>
+
 <template>
   <vscode>
     <div class="mt-2">
@@ -142,35 +174,3 @@
     </template>
   </vscode>
 </template>
-
-<script setup lang="ts">
-const code = `
-{
-  "packageDirectories": [
-   {
-      "path": "packages/billing/products-pre",
-~      "type": "data",
-      "package": "billing-product-catalogue-records-pre",
-      "versionName": "billing-product-catalogue-records-pre-1.1",
-      "versionNumber": "1.5.12.0",
-~      "buildCollection": [
-~        "billing-product-catalogue-records-post"
-~      ],
-~      "checkpointForPrepare": true,
-      "dependencies": [{
-        "package": "Salesforce Billing"
-        },
-        { ... }
-      ]
-    },
-    ...
-    { "path": "packages/billing/products-post", ... },
-    { "path": "packages/case-management/case-config", ... },
-    { "path": "packages/case-management/case-entitlements", ... },
-    { "path": "packages/case-management/case-management-core", ... },
-    { "path": "packages/case-management/web-to-case-api", ... },
-    ...
-  ]
-}
-`
-</script>
