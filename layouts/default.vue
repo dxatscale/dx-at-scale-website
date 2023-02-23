@@ -13,7 +13,7 @@ useHead({
     { rel: 'mask-icon', href: '/safari-pinned-tab.svg?v=1', color: '#5bbad5' },
     { rel: 'shortcut icon', href: '/favicon.ico?v=1' },
   ],
-  bodyAttrs: { class: 'bg-white dark:bg-slate-900' },
+  bodyAttrs: { class: 'bg-white dark:bg-slate-900 transition-colors duration-500' },
 })
 </script>
 <template>
