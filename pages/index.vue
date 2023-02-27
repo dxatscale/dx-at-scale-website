@@ -29,9 +29,6 @@ useHead({
     { hid: 'twitterImageAlt', name: 'twitter:image:alt', content: 'DX@Scale' },
   ],
 })
-
-const code = "console.log('test')"
-const lang = 'javascript'
 </script>
 
 <template>
