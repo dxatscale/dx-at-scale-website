@@ -15,11 +15,11 @@ const props = withDefaults(
 </script>
 
 <template>
-  <div class="relative overflow-visible rounded-lg bg-slate-50 pb-2 ring-1 ring-black/5 dark:bg-slate-800 dark:ring-white/5 xl:ml-0">
-    <div class="relative flex text-xs leading-6 text-slate-400">
-      <div v-if="filename" class="mt-2 flex flex-none items-center border-t border-b border-t-transparent border-b-sky-700 px-4 py-1 text-sky-700 dark:border-b-sky-700 dark:text-sky-300">{{ filename }}</div>
-      <div class="flex flex-auto rounded-tr-xl pt-2">
-        <div class="-mr-px flex-auto rounded-tl border-y border-l bg-slate-200/50 dark:border-slate-500/30 dark:bg-slate-700/50">
+  <div class="overflow relative mt-3 rounded-lg bg-slate-50 pb-2 ring-1 ring-black/5 dark:bg-slate-800 dark:ring-white/5 xl:ml-0">
+    <div v-if="filename" class="relative flex pt-1 text-xs leading-6 text-slate-400">
+      <div class="mt-2 flex flex-none items-center border-t border-b border-t-transparent border-b-sky-700 px-4 text-sky-700 dark:border-b-sky-700 dark:text-sky-300">{{ filename }}</div>
+      <div class="flex flex-auto rounded-tr-xl">
+        <div class="-mr-px flex-auto rounded-tl border-y border-l bg-slate-300/20 dark:border-slate-500/30 dark:bg-slate-700/20">
           <div class="flex h-8 items-center justify-end pr-4">
             <div class="relative -mr-2 flex">
               <div class="mb-4 flex items-center">
@@ -40,7 +40,7 @@ const props = withDefaults(
         </div>
       </div>
     </div>
-    <div class="relative">
+    <div class="relative text-sm">
       <slot />
     </div>
   </div>

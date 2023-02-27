@@ -24,24 +24,23 @@ html {
 }
 
 :root {
-  --shiki-color-background: #00000000;
+  --shiki-color-background: transparent;
+  --shiki-color-text: var(--color-slate-600);
   --shiki-token-keyword: var(--color-sky-700);
   --shiki-token-comment: var(--color-slate-300);
   --shiki-token-punctuation: var(--color-slate-400);
   --shiki-token-function: var(--color-teal-600);
   --shiki-token-constant: var(--color-slate-800);
-  --shiki-color-text: var(--color-slate-600);
   --shiki-token-string-expression: var(--color-rose-700);
   --shiki-token-string: var(--color-green-600);
   --line-numbers: var(--color-slate-300);
 
   --shiki-token-parameter: #aa00ee;
   --shiki-token-link: #00eeee;
-
 }
 
 html.dark {
-  --shiki-color-background: #00000000;
+  --shiki-color-background: transparent;
   --shiki-token-keyword: var(--color-sky-300);
   --shiki-token-comment: var(--color-slate-600);
   --shiki-token-punctuation: var(--color-slate-700);
@@ -51,4 +50,9 @@ html.dark {
   --shiki-token-string-expression: var(--color-rose-300);
   --line-numbers: var(--color-slate-600);
   --shiki-token-string: var(--color-green-400);
+}
+
+.prose pre,
+.prose code {
+  @apply text-slate-700 dark:text-slate-300;
 }
