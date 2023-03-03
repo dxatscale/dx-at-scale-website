@@ -14,4 +14,7 @@ export default defineNuxtConfig({
       theme: 'css-variables',
     },
   },
+  devServer: {
+    host: '0.0.0.0',
+  },
 })
