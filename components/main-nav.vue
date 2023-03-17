@@ -72,7 +72,7 @@ import { XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
   { name: 'Documentation', href: 'https://docs.dxatscale.io/', target: '_blank' },
-  { name: 'Getting Started', href: '/docs/before-you-start/introduction', target: '' },
+  { name: 'Getting Started', href: 'https://docs.dxatscale.io/implementing-your-ci-cd/getting-started', target: '_blank' },
   { name: 'Release Logs', href: 'https://github.com/dxatscale/dxatscale/releases', target: '_blank' },
   { name: 'Team', href: 'https://docs.dxatscale.io/about-us/meet-our-team', target: '_blank' },
 ]
