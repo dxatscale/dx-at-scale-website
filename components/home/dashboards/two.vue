@@ -21,8 +21,8 @@
     </div>
     <div class="relative col-span-12 overflow-visible lg:col-span-8">
       <div class="overflow-visible lg:absolute lg:inset-0 lg:-mt-36 lg:w-[960px]">
-        <img class="dark:hidden lg:rounded-xl" src="~/assets/img/dashboards/light.webp" />
-        <img class="hidden dark:block lg:rounded-xl" src="~/assets/img/dashboards/dark.webp" />
+        <nuxt-picture class="dark:hidden lg:rounded-xl" src="/img/dashboards/light.webp" />
+        <nuxt-picture class="light:hidden dark:block lg:rounded-xl" src="/img/dashboards/dark.webp" />
       </div>
     </div>
   </div>

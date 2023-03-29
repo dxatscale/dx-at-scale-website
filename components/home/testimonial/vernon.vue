@@ -9,7 +9,7 @@
           <footer class="mt-8">
             <div class="md:flex md:items-center md:justify-center">
               <div class="md:flex-shrink-0">
-                <img class="mx-auto h-20 w-20 rounded-full" src="~/assets/img/photos/vernon.webp" alt="" />
+                <nuxt-picture :imgAttrs="{class:'mx-auto h-20 w-20 rounded-full'}" src="/img/photos/vernon.webp" alt="" />
               </div>
               <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
                 <div class="text-base font-medium text-gray-700 dark:text-gray-400">Vernon Keenan</div>

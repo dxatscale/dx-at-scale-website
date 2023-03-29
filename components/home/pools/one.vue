@@ -28,7 +28,7 @@
     </div>
     <div class="relative col-span-12 pb-12 lg:col-span-7">
       <div class="lg:absolute lg:inset-0 lg:-mt-12 lg:w-[810px]">
-        <img class="" src="~/assets/img/pools/developer.webp" />
+        <nuxt-picture class="" src="/img/pools/developer.webp" width="810px" height="466px"/>
       </div>
     </div>
   </div>

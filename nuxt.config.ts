@@ -1,5 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  nitro: {
+    compressPublicAssets: {
+      brotli: true
+    },
+    prerender: {
+      routes: ['index.vue']
+    }
+  },
   build: {},
   css: ['~/assets/fonts/inter/inter.css', '~/assets/css/main.css'],
   postcss: {
@@ -8,7 +16,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@nuxt/image-edge'],
   content: {
     highlight: {
       theme: 'css-variables',

@@ -17,8 +17,8 @@
     </div>
     <div class="relative col-span-12 lg:col-span-7">
       <div class="lg:absolute lg:inset-0 lg:-mt-12 lg:w-[960px]">
-        <img class="dark:hidden" src="~/assets/img/steps/launch-light.webp" />
-        <img class="hidden dark:block" src="~/assets/img/steps/launch-dark.webp" />
+        <nuxt-picture :imgAttrs="{class:'dark:hidden'}" src="/img/steps/launch-light.webp" />
+        <nuxt-picture :imgAttrs="{class:'hidden dark:block'}" src="/img/steps/launch-dark.webp" />
       </div>
     </div>
   </div>
