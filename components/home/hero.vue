@@ -5,7 +5,9 @@
     </div>
     <div class="absolute inset-x-0 top-[calc(100%-13rem)] transform-gpu overflow-hidden blur-3xl md:top-[calc(100%-30rem)]"><low-beam /></div>
     <div class="container relative mx-auto max-w-7xl px-4 md:grid md:grid-cols-3">
-      <div class="absolute -top-12 right-0 hidden md:block"><img class="w-96" src="~/assets/img/bg/hero-image.webp" /></div>
+      <div class="absolute -top-12 right-0 hidden md:block">
+        <nuxt-picture :imgAttrs="{class:'w-96'}" src="/img/bg/hero-image.webp" />
+      </div>
       <div class="relative col-span-2 flex h-full flex-col justify-between text-center md:text-left">
         <announcement />
         <h1 class="mt-8 max-w-3xl text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-50 md:text-3xl lg:text-5xl xl:text-6xl">

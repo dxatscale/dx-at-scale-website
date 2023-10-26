@@ -56,7 +56,7 @@ const navigation = {
     <div class="mx-auto max-w-7xl overflow-hidden px-4">
       <div class="grid grid-cols-12 space-x-3">
         <div class="col-span-3">
-          <a href="https://www.netlify.com"><img src="https://www.netlify.com/v3/img/components/netlify-dark.svg" alt="Deploys by Netlify" /></a>
+          <a href="https://www.netlify.com"><nuxt-img src="https://www.netlify.com/v3/img/components/netlify-dark.svg" alt="Deploys by Netlify" /></a>
         </div>
         <div class="col-span-9">
           <nav class="h-full columns-2 sm:flex sm:columns-auto sm:items-center sm:justify-between" aria-label="Footer">

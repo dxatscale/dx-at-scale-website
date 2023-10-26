@@ -1,3 +1,4 @@
+
 <template>
   <section class="mt-36">
     <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
@@ -9,7 +10,7 @@
           <footer class="mt-8">
             <div class="md:flex md:items-center md:justify-center">
               <div class="md:flex-shrink-0">
-                <img class="mx-auto h-20 w-20 rounded-full" src="~/assets/img/photos/niels.webp" alt="" />
+                <nuxt-picture :imgAttrs="{class:'h-20 w-20 mx-auto rounded-full'}" src="/img/photos/niels.webp" alt="" />
               </div>
               <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
                 <div class="text-base font-medium text-gray-700 dark:text-gray-400">Nils Schuch</div>
