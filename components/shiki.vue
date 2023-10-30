@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 // import { statSync } from 'fs'
-import { ref, Ref } from 'vue'
+import { ref } from 'vue'
 const props = defineProps(['code', 'lang'])
 
 const splitLines = (str: String) => str.split(/\r?\n/)
