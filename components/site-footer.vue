@@ -25,7 +25,7 @@ const navigation = {
     },
     {
       name: 'Slack',
-      href: 'https://launchpass.com/dxatscale',
+      href: 'https://launchpass.com/flxblio',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 448 512' }, [

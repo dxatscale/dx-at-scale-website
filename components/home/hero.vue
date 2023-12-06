@@ -20,7 +20,7 @@
             Get started
             <chevron-right class="ml-2 h-5 w-5" aria-hidden="true" />
           </a>
-          <a class="group relative inline-flex justify-center px-6 py-2 font-semibold text-slate-900 dark:text-slate-200" href="https://launchpass.com/dxatscale">
+          <a class="group relative inline-flex justify-center px-6 py-2 font-semibold text-slate-900 dark:text-slate-200" href="https://launchpass.com/flxblio">
             Join the Community
             <chevron-right class="ml-2 h-5 w-5" />
           </a>
